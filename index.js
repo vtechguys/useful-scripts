@@ -53,7 +53,14 @@ function markdownToHTML(dirname, folder, finalFolderName){
                 const { StringDecoder } = require('string_decoder');
                 const decoder = new StringDecoder('utf8');
                 const fileString = decoder.write(fileData);
-                const formatedOutputHtmlDirty = `
+                
+                const fileSavedPath = path.join( pathToSave, file + ".html" );
+                const createDOMPurify = require('dompurify');
+                const { JSDOM } = require('jsdom');
+                 
+                const window = (new JSDOM('')).window;
+                const DOMPurify = createDOMPurify(window);
+                const formatedOutputHtml = `
                     <!DOCTYPE html>
                     <html lang="en">
                     <head>
@@ -63,13 +70,11 @@ function markdownToHTML(dirname, folder, finalFolderName){
                         <title>Document</title>
                     </head>
                     <body>
-                        ${marked(fileString)}
+                        ${DOMPurify.sanitize(marked(fileString))}
                     </body>
                     </html>
                 `;
-                const fileSavedPath = path.join( pathToSave, file + ".html" );
-                const dompurify = require("dompurify");
-                fs.writeFileSync(fileSavedPath, dompurify.sanitize(formatedOutputHtmlDirty));
+                fs.writeFileSync(fileSavedPath, formatedOutputHtml);
                 
             }
         });
@@ -77,7 +82,7 @@ function markdownToHTML(dirname, folder, finalFolderName){
     
     
 }
-// markdownToHTML(__dirname, "markdownToHTML");
+markdownToHTML(__dirname, "markdownToHTML");
 function minifyImages(dirname, folder, imgExtensions, finalFolderName, quality){
     const dir = dirname || __dirname;
     const pathToFolder = path.join(dir, folder);
