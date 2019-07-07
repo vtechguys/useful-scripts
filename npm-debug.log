@@ -1,0 +1,1933 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/aniketjha/.nvm/versions/node/v6.17.0/bin/node',
+1 verbose cli   '/Users/aniketjha/.nvm/versions/node/v6.17.0/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'compress-images',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData compress-images
+8 silly fetchNamedPackageData compress-images
+9 silly mapToRegistry name compress-images
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'compress-images',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'compress-images',
+12 silly mapToRegistry   name: 'compress-images',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/compress-images
+14 verbose request uri https://registry.npmjs.org/compress-images
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 5:55:35 PM
+17 verbose request using bearer token for auth
+18 verbose request id b73514a685b91a0c
+19 verbose etag W/"c58a1f6b364dd4e12ff73d65f9caf8c3"
+20 verbose lastModified Tue, 01 Jan 2019 15:15:28 GMT
+21 http request GET https://registry.npmjs.org/compress-images
+22 http 200 https://registry.npmjs.org/compress-images
+23 verbose headers { date: 'Sun, 07 Jul 2019 12:25:19 GMT',
+23 verbose headers   'content-type': 'application/json',
+23 verbose headers   'transfer-encoding': 'chunked',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'set-cookie': [ '__cfduid=dcef6b7bf8f1d145c0b5da06c348c779c1562502318; expires=Mon, 06-Jul-20 12:25:18 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+23 verbose headers   'cf-cache-status': 'REVALIDATED',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   'cf-ray': '4f29cce228102f1b-DEL',
+23 verbose headers   etag: 'W/"44ab40ee17a1dce2abd60a3030717dd4"',
+23 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 verbose headers   'last-modified': 'Thu, 23 May 2019 21:24:55 GMT',
+23 verbose headers   vary: 'accept-encoding, accept',
+23 verbose headers   'x-amz-meta-rev': '159-f3dadb0f9d29195c9b45aaa99dca77cb',
+23 verbose headers   server: 'cloudflare',
+23 verbose headers   'content-encoding': 'gzip' }
+24 silly get cb [ 200,
+24 silly get   { date: 'Sun, 07 Jul 2019 12:25:19 GMT',
+24 silly get     'content-type': 'application/json',
+24 silly get     'transfer-encoding': 'chunked',
+24 silly get     connection: 'keep-alive',
+24 silly get     'set-cookie': [ '__cfduid=dcef6b7bf8f1d145c0b5da06c348c779c1562502318; expires=Mon, 06-Jul-20 12:25:18 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+24 silly get     'cf-cache-status': 'REVALIDATED',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'cf-ray': '4f29cce228102f1b-DEL',
+24 silly get     etag: 'W/"44ab40ee17a1dce2abd60a3030717dd4"',
+24 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+24 silly get     'last-modified': 'Thu, 23 May 2019 21:24:55 GMT',
+24 silly get     vary: 'accept-encoding, accept',
+24 silly get     'x-amz-meta-rev': '159-f3dadb0f9d29195c9b45aaa99dca77cb',
+24 silly get     server: 'cloudflare',
+24 silly get     'content-encoding': 'gzip' } ]
+25 verbose get saving compress-images to /Users/aniketjha/.npm/registry.npmjs.org/compress-images/.cache.json
+26 verbose correctMkdir /Users/aniketjha/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule compress-images@1.5.8 checking installable status
+40 silly cache add args [ 'compress-images', null ]
+41 verbose cache add spec compress-images
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'compress-images',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'compress-images',
+42 silly cache add   name: 'compress-images',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed compress-images@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for compress-images
+45 info addNameTag [ 'compress-images', 'latest' ]
+46 silly mapToRegistry name compress-images
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'compress-images',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'compress-images',
+49 silly mapToRegistry   name: 'compress-images',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/compress-images
+51 verbose addNameTag registry:https://registry.npmjs.org/compress-images not in flight; fetching
+52 verbose get https://registry.npmjs.org/compress-images not expired, no request
+53 silly addNameTag next cb for compress-images with tag latest
+54 silly addNamed compress-images@1.5.8
+55 verbose addNamed "1.5.8" is a plain semver version for compress-images
+56 silly mapToRegistry name compress-images
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'compress-images',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   escapedName: 'compress-images',
+59 silly mapToRegistry   name: 'compress-images',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/compress-images
+61 verbose addRemoteTarball https://registry.npmjs.org/compress-images/-/compress-images-1.5.8.tgz not in flight; adding
+62 verbose addRemoteTarball [ 'https://registry.npmjs.org/compress-images/-/compress-images-1.5.8.tgz',
+62 verbose addRemoteTarball   'b5418e2684503935bca5d92909cb0848b8ca7a1e' ]
+63 info retry fetch attempt 1 at 5:55:42 PM
+64 info attempt registry request try #1 at 5:55:42 PM
+65 http fetch GET https://registry.npmjs.org/compress-images/-/compress-images-1.5.8.tgz
+66 verbose request using bearer token for auth
+67 http fetch 200 https://registry.npmjs.org/compress-images/-/compress-images-1.5.8.tgz
+68 silly fetchAndShaCheck shasum b5418e2684503935bca5d92909cb0848b8ca7a1e
+69 verbose addTmpTarball /var/folders/yh/5p3pvb7j59nbvfmj4cnl_h_w0000gn/T/npm-60516-7a97deaa/registry.npmjs.org/compress-images/-/compress-images-1.5.8.tgz not in flight; adding
+70 verbose addTmpTarball already have metadata; skipping unpack for compress-images@1.5.8
+71 verbose correctMkdir /Users/aniketjha/.npm correctMkdir not in flight; initializing
+72 silly cache afterAdd compress-images@1.5.8
+73 verbose afterAdd /Users/aniketjha/.npm/compress-images/1.5.8/package/package.json not in flight; writing
+74 verbose correctMkdir /Users/aniketjha/.npm correctMkdir not in flight; initializing
+75 verbose afterAdd /Users/aniketjha/.npm/compress-images/1.5.8/package/package.json written
+76 silly fetchNamedPackageData jpegoptim-bin
+77 silly mapToRegistry name jpegoptim-bin
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry https://registry.npmjs.org/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: 'jpegoptim-bin',
+80 silly mapToRegistry   scope: null,
+80 silly mapToRegistry   escapedName: 'jpegoptim-bin',
+80 silly mapToRegistry   name: 'jpegoptim-bin',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag' }
+81 silly mapToRegistry uri https://registry.npmjs.org/jpegoptim-bin
+82 verbose request uri https://registry.npmjs.org/jpegoptim-bin
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 5:55:47 PM
+85 verbose request using bearer token for auth
+86 verbose etag W/"fabfb5de26af8aa4b2543925d8a27bbe"
+87 verbose lastModified Fri, 04 Jan 2019 06:21:05 GMT
+88 http request GET https://registry.npmjs.org/jpegoptim-bin
+89 http 304 https://registry.npmjs.org/jpegoptim-bin
+90 verbose headers { date: 'Sun, 07 Jul 2019 12:25:27 GMT',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'set-cookie': [ '__cfduid=d7fbcfcbe29b744abbc49df471e46bc911562502325; expires=Mon, 06-Jul-20 12:25:25 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+90 verbose headers   'cf-cache-status': 'REVALIDATED',
+90 verbose headers   'cache-control': 'max-age=300',
+90 verbose headers   'cf-ray': '4f29cd10eb102f1b-DEL',
+90 verbose headers   etag: '"fabfb5de26af8aa4b2543925d8a27bbe"',
+90 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+90 verbose headers   'last-modified': 'Fri, 04 Jan 2019 06:21:05 GMT',
+90 verbose headers   vary: 'accept-encoding, accept',
+90 verbose headers   'x-amz-meta-rev': '207-b31fdad33cce61a3ce56a4310d97f2f2',
+90 verbose headers   server: 'cloudflare' }
+91 silly get cb [ 304,
+91 silly get   { date: 'Sun, 07 Jul 2019 12:25:27 GMT',
+91 silly get     connection: 'keep-alive',
+91 silly get     'set-cookie': [ '__cfduid=d7fbcfcbe29b744abbc49df471e46bc911562502325; expires=Mon, 06-Jul-20 12:25:25 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+91 silly get     'cf-cache-status': 'REVALIDATED',
+91 silly get     'cache-control': 'max-age=300',
+91 silly get     'cf-ray': '4f29cd10eb102f1b-DEL',
+91 silly get     etag: '"fabfb5de26af8aa4b2543925d8a27bbe"',
+91 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+91 silly get     'last-modified': 'Fri, 04 Jan 2019 06:21:05 GMT',
+91 silly get     vary: 'accept-encoding, accept',
+91 silly get     'x-amz-meta-rev': '207-b31fdad33cce61a3ce56a4310d97f2f2',
+91 silly get     server: 'cloudflare' } ]
+92 verbose etag https://registry.npmjs.org/jpegoptim-bin from cache
+93 verbose get saving jpegoptim-bin to /Users/aniketjha/.npm/registry.npmjs.org/jpegoptim-bin/.cache.json
+94 verbose correctMkdir /Users/aniketjha/.npm correctMkdir not in flight; initializing
+95 silly resolveWithNewModule jpegoptim-bin@5.1.0 checking installable status
+96 silly cache add args [ 'jpegoptim-bin@>=3.0.0', null ]
+97 verbose cache add spec jpegoptim-bin@>=3.0.0
+98 silly cache add parsed spec Result {
+98 silly cache add   raw: 'jpegoptim-bin@>=3.0.0',
+98 silly cache add   scope: null,
+98 silly cache add   escapedName: 'jpegoptim-bin',
+98 silly cache add   name: 'jpegoptim-bin',
+98 silly cache add   rawSpec: '>=3.0.0',
+98 silly cache add   spec: '>=3.0.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed jpegoptim-bin@>=3.0.0
+100 verbose addNamed ">=3.0.0" is a valid semver range for jpegoptim-bin
+101 silly addNameRange { name: 'jpegoptim-bin', range: '>=3.0.0', hasData: false }
+102 silly mapToRegistry name jpegoptim-bin
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'jpegoptim-bin',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'jpegoptim-bin',
+105 silly mapToRegistry   name: 'jpegoptim-bin',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/jpegoptim-bin
+107 verbose addNameRange registry:https://registry.npmjs.org/jpegoptim-bin not in flight; fetching
+108 verbose get https://registry.npmjs.org/jpegoptim-bin not expired, no request
+109 silly addNameRange number 2 { name: 'jpegoptim-bin', range: '>=3.0.0', hasData: true }
+110 silly addNameRange versions [ 'jpegoptim-bin',
+110 silly addNameRange   [ '0.1.0',
+110 silly addNameRange     '0.1.1',
+110 silly addNameRange     '0.1.2',
+110 silly addNameRange     '0.1.3',
+110 silly addNameRange     '0.1.4',
+110 silly addNameRange     '0.1.6',
+110 silly addNameRange     '1.0.0',
+110 silly addNameRange     '2.0.0',
+110 silly addNameRange     '2.0.1',
+110 silly addNameRange     '3.0.0',
+110 silly addNameRange     '4.0.0',
+110 silly addNameRange     '5.0.0',
+110 silly addNameRange     '5.1.0' ] ]
+111 silly addNamed jpegoptim-bin@5.1.0
+112 verbose addNamed "5.1.0" is a plain semver version for jpegoptim-bin
+113 silly cache afterAdd jpegoptim-bin@5.1.0
+114 verbose afterAdd /Users/aniketjha/.npm/jpegoptim-bin/5.1.0/package/package.json not in flight; writing
+115 verbose correctMkdir /Users/aniketjha/.npm correctMkdir not in flight; initializing
+116 verbose afterAdd /Users/aniketjha/.npm/jpegoptim-bin/5.1.0/package/package.json written
+117 silly loadAllDepsIntoIdealTree Finishing
+118 silly loadIdealTree Finishing
+119 silly currentTree useful-scripts@1.0.0
+119 silly currentTree ├── @sindresorhus/is@0.7.0
+119 silly currentTree ├── @types/q@1.5.2
+119 silly currentTree ├── ajv@6.10.1
+119 silly currentTree ├── ansi-gray@0.1.1
+119 silly currentTree ├── ansi-regex@2.1.1
+119 silly currentTree ├── ansi-styles@2.2.1
+119 silly currentTree ├── ansi-wrap@0.1.0
+119 silly currentTree ├── arch@2.1.1
+119 silly currentTree ├─┬ archive-type@4.0.0
+119 silly currentTree │ └── file-type@4.4.0
+119 silly currentTree ├── argparse@0.1.16
+119 silly currentTree ├── arr-diff@2.0.0
+119 silly currentTree ├── arr-flatten@1.1.0
+119 silly currentTree ├── array-differ@1.0.0
+119 silly currentTree ├── array-find-index@1.0.2
+119 silly currentTree ├── array-uniq@2.1.0
+119 silly currentTree ├── array-unique@0.2.1
+119 silly currentTree ├── asn1@0.2.4
+119 silly currentTree ├── assert-plus@1.0.0
+119 silly currentTree ├── async-each-series@1.1.0
+119 silly currentTree ├── async@1.5.2
+119 silly currentTree ├── asynckit@0.4.0
+119 silly currentTree ├── autolinker@0.15.3
+119 silly currentTree ├── aws-sign2@0.7.0
+119 silly currentTree ├── aws4@1.8.0
+119 silly currentTree ├── balanced-match@1.0.0
+119 silly currentTree ├── base64-js@1.3.0
+119 silly currentTree ├── bcrypt-pbkdf@1.0.2
+119 silly currentTree ├── beeper@1.1.1
+119 silly currentTree ├── bin-build@3.0.0
+119 silly currentTree ├── bin-check@4.1.0
+119 silly currentTree ├── bin-version-check@4.0.0
+119 silly currentTree ├─┬ bin-version@3.1.0
+119 silly currentTree │ ├── cross-spawn@6.0.5
+119 silly currentTree │ ├── execa@1.0.0
+119 silly currentTree │ └── get-stream@4.1.0
+119 silly currentTree ├─┬ bin-wrapper@4.1.0
+119 silly currentTree │ ├─┬ download@7.1.0
+119 silly currentTree │ │ └── pify@3.0.0
+119 silly currentTree │ ├── file-type@8.1.0
+119 silly currentTree │ ├── get-stream@3.0.0
+119 silly currentTree │ ├─┬ got@8.3.2
+119 silly currentTree │ │ └── pify@3.0.0
+119 silly currentTree │ ├── p-cancelable@0.4.1
+119 silly currentTree │ ├── p-event@2.3.1
+119 silly currentTree │ ├── p-timeout@2.0.1
+119 silly currentTree │ ├── pify@4.0.1
+119 silly currentTree │ ├── prepend-http@2.0.0
+119 silly currentTree │ └── url-parse-lax@3.0.0
+119 silly currentTree ├── bl@1.2.2
+119 silly currentTree ├── boolbase@1.0.0
+119 silly currentTree ├── brace-expansion@1.1.11
+119 silly currentTree ├── braces@1.8.5
+119 silly currentTree ├── browser-stdout@1.3.0
+119 silly currentTree ├── buffer-alloc-unsafe@1.1.0
+119 silly currentTree ├── buffer-alloc@1.2.0
+119 silly currentTree ├── buffer-crc32@0.2.13
+119 silly currentTree ├── buffer-fill@1.0.0
+119 silly currentTree ├── buffer-from@1.1.1
+119 silly currentTree ├─┬ buffer-to-vinyl@1.1.0
+119 silly currentTree │ ├── file-type@3.9.0
+119 silly currentTree │ └── uuid@2.0.3
+119 silly currentTree ├── buffer@5.2.1
+119 silly currentTree ├── bytes@3.1.0
+119 silly currentTree ├─┬ cacheable-request@2.1.4
+119 silly currentTree │ ├── get-stream@3.0.0
+119 silly currentTree │ └── lowercase-keys@1.0.0
+119 silly currentTree ├── camelcase-keys@2.1.0
+119 silly currentTree ├── camelcase@2.1.1
+119 silly currentTree ├── capture-stack-trace@1.0.1
+119 silly currentTree ├── caseless@0.12.0
+119 silly currentTree ├── caw@2.0.1
+119 silly currentTree ├── chalk@1.1.3
+119 silly currentTree ├── clone-response@1.0.2
+119 silly currentTree ├── clone-stats@0.0.1
+119 silly currentTree ├── clone@1.0.4
+119 silly currentTree ├── co@3.1.0
+119 silly currentTree ├─┬ coa@2.0.2
+119 silly currentTree │ ├── ansi-styles@3.2.1
+119 silly currentTree │ ├── chalk@2.4.2
+119 silly currentTree │ ├── has-flag@3.0.0
+119 silly currentTree │ └── supports-color@5.5.0
+119 silly currentTree ├── color-convert@1.9.3
+119 silly currentTree ├── color-name@1.1.3
+119 silly currentTree ├── color-support@1.1.3
+119 silly currentTree ├── colors@1.3.3
+119 silly currentTree ├── combined-stream@1.0.8
+119 silly currentTree ├── commander@2.20.0
+119 silly currentTree ├── concat-map@0.0.1
+119 silly currentTree ├── concat-stream@1.6.2
+119 silly currentTree ├── config-chain@1.1.12
+119 silly currentTree ├── console-stream@0.1.1
+119 silly currentTree ├── content-disposition@0.5.3
+119 silly currentTree ├── convert-source-map@1.6.0
+119 silly currentTree ├── core-util-is@1.0.2
+119 silly currentTree ├── create-error-class@3.0.2
+119 silly currentTree ├── cross-spawn@5.1.0
+119 silly currentTree ├── css-select-base-adapter@0.1.1
+119 silly currentTree ├── css-select@2.0.2
+119 silly currentTree ├── css-tree@1.0.0-alpha.28
+119 silly currentTree ├── css-url-regex@1.1.0
+119 silly currentTree ├── css-what@2.1.3
+119 silly currentTree ├─┬ csso@3.5.1
+119 silly currentTree │ └── css-tree@1.0.0-alpha.29
+119 silly currentTree ├── currently-unhandled@0.4.1
+119 silly currentTree ├── cwebp-bin@5.1.0
+119 silly currentTree ├── dashdash@1.14.1
+119 silly currentTree ├── dateformat@2.2.0
+119 silly currentTree ├── debug@2.6.9
+119 silly currentTree ├── decamelize@1.2.0
+119 silly currentTree ├── decode-uri-component@0.2.0
+119 silly currentTree ├── decompress-response@3.3.0
+119 silly currentTree ├── decompress-tar@4.1.1
+119 silly currentTree ├─┬ decompress-tarbz2@4.1.1
+119 silly currentTree │ └── file-type@6.2.0
+119 silly currentTree ├── decompress-targz@4.1.1
+119 silly currentTree ├─┬ decompress-unzip@4.0.1
+119 silly currentTree │ ├── fd-slicer@1.1.0
+119 silly currentTree │ ├── file-type@3.9.0
+119 silly currentTree │ └── yauzl@2.10.0
+119 silly currentTree ├── decompress@4.2.0
+119 silly currentTree ├── deep-extend@0.6.0
+119 silly currentTree ├── define-properties@1.1.3
+119 silly currentTree ├── delayed-stream@1.0.0
+119 silly currentTree ├── diff@3.3.1
+119 silly currentTree ├── dom-serializer@0.1.1
+119 silly currentTree ├── domelementtype@1.3.1
+119 silly currentTree ├── dompurify@1.0.11
+119 silly currentTree ├── domutils@1.7.0
+119 silly currentTree ├─┬ download@6.2.5
+119 silly currentTree │ ├── get-stream@3.0.0
+119 silly currentTree │ └── pify@3.0.0
+119 silly currentTree ├── duplexer@0.1.1
+119 silly currentTree ├── duplexer2@0.1.4
+119 silly currentTree ├── duplexer3@0.1.4
+119 silly currentTree ├── duplexify@3.7.1
+119 silly currentTree ├── each-async@1.1.1
+119 silly currentTree ├── ecc-jsbn@0.1.2
+119 silly currentTree ├── end-of-stream@1.4.1
+119 silly currentTree ├── entities@1.1.2
+119 silly currentTree ├── error-ex@1.3.2
+119 silly currentTree ├── es-abstract@1.13.0
+119 silly currentTree ├── es-to-primitive@1.2.0
+119 silly currentTree ├── es6-promise@4.2.8
+119 silly currentTree ├── escape-string-regexp@1.0.5
+119 silly currentTree ├── esprima@4.0.1
+119 silly currentTree ├── exec-series@1.0.3
+119 silly currentTree ├─┬ execa@0.7.0
+119 silly currentTree │ └── get-stream@3.0.0
+119 silly currentTree ├── executable@4.1.1
+119 silly currentTree ├── expand-brackets@0.1.5
+119 silly currentTree ├── expand-range@1.8.2
+119 silly currentTree ├── ext-list@2.2.2
+119 silly currentTree ├── ext-name@5.0.0
+119 silly currentTree ├── extend-shallow@2.0.1
+119 silly currentTree ├── extend@3.0.2
+119 silly currentTree ├─┬ extglob@0.3.2
+119 silly currentTree │ └── is-extglob@1.0.0
+119 silly currentTree ├── extract-zip@1.6.7
+119 silly currentTree ├── extsprintf@1.3.0
+119 silly currentTree ├── fancy-log@1.3.3
+119 silly currentTree ├── fast-deep-equal@2.0.1
+119 silly currentTree ├── fast-json-stable-stringify@2.0.0
+119 silly currentTree ├── fd-slicer@1.0.1
+119 silly currentTree ├── figures@1.7.0
+119 silly currentTree ├── file-type@5.2.0
+119 silly currentTree ├── filename-regex@2.0.1
+119 silly currentTree ├── filename-reserved-regex@2.0.0
+119 silly currentTree ├── filenamify@2.1.0
+119 silly currentTree ├── fill-range@2.2.4
+119 silly currentTree ├── find-up@1.1.2
+119 silly currentTree ├── find-versions@3.1.0
+119 silly currentTree ├── first-chunk-stream@1.0.0
+119 silly currentTree ├── for-in@1.0.2
+119 silly currentTree ├── for-own@0.1.5
+119 silly currentTree ├── forever-agent@0.6.1
+119 silly currentTree ├── form-data@2.3.3
+119 silly currentTree ├── from2@2.3.0
+119 silly currentTree ├── fs-constants@1.0.0
+119 silly currentTree ├── fs-extra@1.0.0
+119 silly currentTree ├── fs.realpath@1.0.0
+119 silly currentTree ├── function-bind@1.1.1
+119 silly currentTree ├── get-proxy@2.1.0
+119 silly currentTree ├── get-stdin@4.0.1
+119 silly currentTree ├── get-stream@2.3.1
+119 silly currentTree ├── getpass@0.1.7
+119 silly currentTree ├─┬ giflossy@3.0.41
+119 silly currentTree │ ├── archive-type@3.2.0
+119 silly currentTree │ ├── array-uniq@1.0.3
+119 silly currentTree │ ├── bin-build@2.2.0
+119 silly currentTree │ ├── bin-check@2.0.0
+119 silly currentTree │ ├── bin-version-check@2.1.0
+119 silly currentTree │ ├── bin-version@1.0.4
+119 silly currentTree │ ├── bin-wrapper@3.0.2
+119 silly currentTree │ ├─┬ caw@1.2.0
+119 silly currentTree │ │ └── object-assign@3.0.0
+119 silly currentTree │ ├── clone@0.2.0
+119 silly currentTree │ ├── decompress-tar@3.1.0
+119 silly currentTree │ ├── decompress-tarbz2@3.1.0
+119 silly currentTree │ ├── decompress-targz@3.1.0
+119 silly currentTree │ ├─┬ decompress-unzip@3.4.0
+119 silly currentTree │ │ ├── clone@1.0.4
+119 silly currentTree │ │ ├── isarray@1.0.0
+119 silly currentTree │ │ ├── readable-stream@2.3.6
+119 silly currentTree │ │ ├── string_decoder@1.1.1
+119 silly currentTree │ │ ├── through2@2.0.5
+119 silly currentTree │ │ └── vinyl@1.2.0
+119 silly currentTree │ ├── decompress@3.0.0
+119 silly currentTree │ ├─┬ download@4.4.3
+119 silly currentTree │ │ ├── clone@1.0.4
+119 silly currentTree │ │ ├── isarray@1.0.0
+119 silly currentTree │ │ ├── object-assign@4.1.1
+119 silly currentTree │ │ ├── readable-stream@2.3.6
+119 silly currentTree │ │ ├── string_decoder@1.1.1
+119 silly currentTree │ │ └── vinyl@1.2.0
+119 silly currentTree │ ├── executable@1.1.0
+119 silly currentTree │ ├── file-type@3.9.0
+119 silly currentTree │ ├── filename-reserved-regex@1.0.0
+119 silly currentTree │ ├── filenamify@1.2.1
+119 silly currentTree │ ├── find-versions@1.2.1
+119 silly currentTree │ ├── get-proxy@1.1.0
+119 silly currentTree │ ├─┬ got@5.7.1
+119 silly currentTree │ │ ├── isarray@1.0.0
+119 silly currentTree │ │ ├── object-assign@4.1.1
+119 silly currentTree │ │ ├── readable-stream@2.3.6
+119 silly currentTree │ │ └── string_decoder@1.1.1
+119 silly currentTree │ ├── is-natural-number@2.1.1
+119 silly currentTree │ ├── isarray@0.0.1
+119 silly currentTree │ ├── minimist@1.2.0
+119 silly currentTree │ ├── object-assign@2.1.1
+119 silly currentTree │ ├── os-filter-obj@1.0.3
+119 silly currentTree │ ├── readable-stream@1.0.34
+119 silly currentTree │ ├── semver-regex@1.0.0
+119 silly currentTree │ ├── semver@4.3.6
+119 silly currentTree │ ├── string_decoder@0.10.31
+119 silly currentTree │ ├── strip-dirs@1.1.1
+119 silly currentTree │ ├── tempfile@1.1.1
+119 silly currentTree │ ├── through2@0.6.5
+119 silly currentTree │ ├── timed-out@3.1.3
+119 silly currentTree │ ├── tunnel-agent@0.4.3
+119 silly currentTree │ ├── uuid@2.0.3
+119 silly currentTree │ └── vinyl@0.4.6
+119 silly currentTree ├─┬ gifsicle@4.0.1
+119 silly currentTree │ ├── cross-spawn@6.0.5
+119 silly currentTree │ ├── execa@1.0.0
+119 silly currentTree │ └── get-stream@4.1.0
+119 silly currentTree ├─┬ glob-base@0.3.0
+119 silly currentTree │ ├── glob-parent@2.0.0
+119 silly currentTree │ ├── is-extglob@1.0.0
+119 silly currentTree │ └── is-glob@2.0.1
+119 silly currentTree ├── glob-parent@3.1.0
+119 silly currentTree ├─┬ glob-stream@5.3.5
+119 silly currentTree │ ├── glob@5.0.15
+119 silly currentTree │ ├── isarray@0.0.1
+119 silly currentTree │ ├── readable-stream@1.0.34
+119 silly currentTree │ ├── string_decoder@0.10.31
+119 silly currentTree │ └── through2@0.6.5
+119 silly currentTree ├── glob@7.1.4
+119 silly currentTree ├── glogg@1.0.2
+119 silly currentTree ├─┬ got@7.1.0
+119 silly currentTree │ └── get-stream@3.0.0
+119 silly currentTree ├── graceful-fs@4.2.0
+119 silly currentTree ├── graceful-readlink@1.0.1
+119 silly currentTree ├── growl@1.10.3
+119 silly currentTree ├── guetzli@2.0.0
+119 silly currentTree ├─┬ gulp-decompress@1.2.0
+119 silly currentTree │ ├── archive-type@3.2.0
+119 silly currentTree │ ├── clone@0.2.0
+119 silly currentTree │ ├── decompress-tar@3.1.0
+119 silly currentTree │ ├── decompress-tarbz2@3.1.0
+119 silly currentTree │ ├── decompress-targz@3.1.0
+119 silly currentTree │ ├─┬ decompress-unzip@3.4.0
+119 silly currentTree │ │ ├── clone@1.0.4
+119 silly currentTree │ │ ├── through2@2.0.5
+119 silly currentTree │ │ └── vinyl@1.2.0
+119 silly currentTree │ ├── decompress@3.0.0
+119 silly currentTree │ ├── file-type@3.9.0
+119 silly currentTree │ ├── is-natural-number@2.1.1
+119 silly currentTree │ ├── isarray@0.0.1
+119 silly currentTree │ ├── minimist@1.2.0
+119 silly currentTree │ ├── object-assign@2.1.1
+119 silly currentTree │ ├── string_decoder@0.10.31
+119 silly currentTree │ ├── strip-dirs@1.1.1
+119 silly currentTree │ ├─┬ through2@0.6.5
+119 silly currentTree │ │ └── readable-stream@1.0.34
+119 silly currentTree │ └── vinyl@0.4.6
+119 silly currentTree ├── gulp-rename@1.4.0
+119 silly currentTree ├── gulp-sourcemaps@1.6.0
+119 silly currentTree ├─┬ gulp-util@3.0.8
+119 silly currentTree │ ├── array-uniq@1.0.3
+119 silly currentTree │ ├── minimist@1.2.0
+119 silly currentTree │ ├── object-assign@3.0.0
+119 silly currentTree │ └── vinyl@0.5.3
+119 silly currentTree ├── gulplog@1.0.0
+119 silly currentTree ├── har-schema@2.0.0
+119 silly currentTree ├── har-validator@5.1.3
+119 silly currentTree ├── has-ansi@2.0.0
+119 silly currentTree ├── has-flag@2.0.0
+119 silly currentTree ├── has-gulplog@0.1.0
+119 silly currentTree ├── has-symbol-support-x@1.4.2
+119 silly currentTree ├── has-symbols@1.0.0
+119 silly currentTree ├── has-to-string-tag-x@1.4.1
+119 silly currentTree ├── has@1.0.3
+119 silly currentTree ├── hasha@2.2.0
+119 silly currentTree ├── he@1.1.1
+119 silly currentTree ├── highlight.js@9.15.8
+119 silly currentTree ├── hosted-git-info@2.7.1
+119 silly currentTree ├── http-cache-semantics@3.8.1
+119 silly currentTree ├── http-signature@1.2.0
+119 silly currentTree ├── ieee754@1.1.13
+119 silly currentTree ├── import-lazy@3.1.0
+119 silly currentTree ├── indent-string@2.1.0
+119 silly currentTree ├── inflight@1.0.6
+119 silly currentTree ├── inherits@2.0.4
+119 silly currentTree ├── ini@1.3.5
+119 silly currentTree ├── into-stream@3.1.0
+119 silly currentTree ├── ip-regex@1.0.3
+119 silly currentTree ├── is-absolute@0.1.7
+119 silly currentTree ├── is-arrayish@0.2.1
+119 silly currentTree ├── is-buffer@1.1.6
+119 silly currentTree ├── is-bzip2@1.0.0
+119 silly currentTree ├── is-callable@1.1.4
+119 silly currentTree ├── is-date-object@1.0.1
+119 silly currentTree ├── is-dotfile@1.0.3
+119 silly currentTree ├── is-equal-shallow@0.1.3
+119 silly currentTree ├── is-extendable@0.1.1
+119 silly currentTree ├── is-extglob@2.1.1
+119 silly currentTree ├── is-finite@1.0.2
+119 silly currentTree ├── is-glob@3.1.0
+119 silly currentTree ├── is-gzip@1.0.0
+119 silly currentTree ├── is-natural-number@4.0.1
+119 silly currentTree ├── is-number@2.1.0
+119 silly currentTree ├── is-obj@1.0.1
+119 silly currentTree ├── is-object@1.0.1
+119 silly currentTree ├── is-plain-obj@1.1.0
+119 silly currentTree ├── is-posix-bracket@0.1.1
+119 silly currentTree ├── is-primitive@2.0.0
+119 silly currentTree ├── is-redirect@1.0.0
+119 silly currentTree ├── is-regex@1.0.4
+119 silly currentTree ├── is-relative@0.1.3
+119 silly currentTree ├── is-retry-allowed@1.1.0
+119 silly currentTree ├── is-stream@1.1.0
+119 silly currentTree ├── is-symbol@1.0.2
+119 silly currentTree ├── is-tar@1.0.0
+119 silly currentTree ├── is-typedarray@1.0.0
+119 silly currentTree ├── is-url@1.2.4
+119 silly currentTree ├── is-utf8@0.2.1
+119 silly currentTree ├── is-valid-glob@0.3.0
+119 silly currentTree ├── is-zip@1.0.0
+119 silly currentTree ├── isarray@1.0.0
+119 silly currentTree ├── isexe@2.0.0
+119 silly currentTree ├── isobject@2.1.0
+119 silly currentTree ├── isstream@0.1.2
+119 silly currentTree ├── isurl@1.0.0
+119 silly currentTree ├── jpeg-recompress-bin@4.0.0
+119 silly currentTree ├── jpegtran-bin@4.0.0
+119 silly currentTree ├─┬ js-yaml@3.13.1
+119 silly currentTree │ └── argparse@1.0.10
+119 silly currentTree ├── jsbn@0.1.1
+119 silly currentTree ├── json-buffer@3.0.0
+119 silly currentTree ├── json-schema-traverse@0.4.1
+119 silly currentTree ├── json-schema@0.2.3
+119 silly currentTree ├── json-stable-stringify-without-jsonify@1.0.1
+119 silly currentTree ├── json-stringify-safe@5.0.1
+119 silly currentTree ├── jsonfile@2.4.0
+119 silly currentTree ├── jsprim@1.4.1
+119 silly currentTree ├── kew@0.7.0
+119 silly currentTree ├── keyv@3.0.0
+119 silly currentTree ├── kind-of@3.2.2
+119 silly currentTree ├── klaw@1.3.1
+119 silly currentTree ├── lazy-req@1.1.0
+119 silly currentTree ├── lazystream@1.0.0
+119 silly currentTree ├── load-json-file@1.1.0
+119 silly currentTree ├── lodash._basecopy@3.0.1
+119 silly currentTree ├── lodash._basetostring@3.0.1
+119 silly currentTree ├── lodash._basevalues@3.0.0
+119 silly currentTree ├── lodash._getnative@3.9.1
+119 silly currentTree ├── lodash._isiterateecall@3.0.9
+119 silly currentTree ├── lodash._reescape@3.0.0
+119 silly currentTree ├── lodash._reevaluate@3.0.0
+119 silly currentTree ├── lodash._reinterpolate@3.0.0
+119 silly currentTree ├── lodash._root@3.0.1
+119 silly currentTree ├── lodash.escape@3.2.0
+119 silly currentTree ├── lodash.isarguments@3.1.0
+119 silly currentTree ├── lodash.isarray@3.0.4
+119 silly currentTree ├── lodash.isequal@4.5.0
+119 silly currentTree ├── lodash.keys@3.1.2
+119 silly currentTree ├── lodash.restparam@3.6.1
+119 silly currentTree ├── lodash.template@3.6.2
+119 silly currentTree ├── lodash.templatesettings@3.1.1
+119 silly currentTree ├── logalot@2.1.0
+119 silly currentTree ├── longest@1.0.1
+119 silly currentTree ├── loud-rejection@1.6.0
+119 silly currentTree ├── lowercase-keys@1.0.1
+119 silly currentTree ├── lpad-align@1.1.2
+119 silly currentTree ├── lru-cache@4.1.5
+119 silly currentTree ├─┬ make-dir@1.3.0
+119 silly currentTree │ └── pify@3.0.0
+119 silly currentTree ├── map-obj@1.0.1
+119 silly currentTree ├── markdown-pdf@9.0.0
+119 silly currentTree ├── marked@0.7.0
+119 silly currentTree ├── math-random@1.0.4
+119 silly currentTree ├── mdn-data@1.1.4
+119 silly currentTree ├─┬ meow@3.7.0
+119 silly currentTree │ └── minimist@1.2.0
+119 silly currentTree ├── merge-stream@1.0.1
+119 silly currentTree ├─┬ micromatch@2.3.11
+119 silly currentTree │ ├── is-extglob@1.0.0
+119 silly currentTree │ └── is-glob@2.0.1
+119 silly currentTree ├── mime-db@1.40.0
+119 silly currentTree ├── mime-types@2.1.24
+119 silly currentTree ├── mimic-response@1.0.1
+119 silly currentTree ├── minimatch@3.0.4
+119 silly currentTree ├── minimist@0.0.8
+119 silly currentTree ├── mkdirp@0.5.1
+119 silly currentTree ├─┬ mocha@4.0.1
+119 silly currentTree │ ├── commander@2.11.0
+119 silly currentTree │ ├── debug@3.1.0
+119 silly currentTree │ ├── glob@7.1.2
+119 silly currentTree │ └── supports-color@4.4.0
+119 silly currentTree ├── mozjpeg@6.0.1
+119 silly currentTree ├── ms@2.0.0
+119 silly currentTree ├─┬ multipipe@0.1.2
+119 silly currentTree │ ├── duplexer2@0.0.2
+119 silly currentTree │ ├── isarray@0.0.1
+119 silly currentTree │ ├── readable-stream@1.1.14
+119 silly currentTree │ └── string_decoder@0.10.31
+119 silly currentTree ├── nice-try@1.0.5
+119 silly currentTree ├── node-status-codes@1.0.0
+119 silly currentTree ├── normalize-package-data@2.5.0
+119 silly currentTree ├── normalize-path@2.1.1
+119 silly currentTree ├─┬ normalize-url@2.0.1
+119 silly currentTree │ ├── prepend-http@2.0.0
+119 silly currentTree │ └── sort-keys@2.0.0
+119 silly currentTree ├─┬ npm-conf@1.1.3
+119 silly currentTree │ └── pify@3.0.0
+119 silly currentTree ├── npm-run-path@2.0.2
+119 silly currentTree ├── nth-check@1.0.2
+119 silly currentTree ├── number-is-nan@1.0.1
+119 silly currentTree ├── oauth-sign@0.9.0
+119 silly currentTree ├── object-assign@4.1.1
+119 silly currentTree ├── object-keys@1.1.1
+119 silly currentTree ├── object.getownpropertydescriptors@2.0.3
+119 silly currentTree ├── object.omit@2.0.1
+119 silly currentTree ├── object.values@1.1.0
+119 silly currentTree ├── once@1.4.0
+119 silly currentTree ├── onetime@1.1.0
+119 silly currentTree ├── optipng-bin@6.0.0
+119 silly currentTree ├── ordered-read-streams@0.3.0
+119 silly currentTree ├── os-filter-obj@2.0.0
+119 silly currentTree ├── os-tmpdir@1.0.2
+119 silly currentTree ├── p-cancelable@0.3.0
+119 silly currentTree ├── p-event@1.3.0
+119 silly currentTree ├── p-finally@1.0.0
+119 silly currentTree ├── p-is-promise@1.1.0
+119 silly currentTree ├── p-map-series@1.0.0
+119 silly currentTree ├── p-reduce@1.0.0
+119 silly currentTree ├── p-timeout@1.2.1
+119 silly currentTree ├─┬ parse-glob@3.0.4
+119 silly currentTree │ ├── is-extglob@1.0.0
+119 silly currentTree │ └── is-glob@2.0.1
+119 silly currentTree ├── parse-json@2.2.0
+119 silly currentTree ├── parse-node-version@1.0.1
+119 silly currentTree ├── path-dirname@1.0.2
+119 silly currentTree ├── path-exists@2.1.0
+119 silly currentTree ├── path-is-absolute@1.0.1
+119 silly currentTree ├── path-key@2.0.1
+119 silly currentTree ├── path-parse@1.0.6
+119 silly currentTree ├── path-type@1.1.0
+119 silly currentTree ├── pend@1.2.0
+119 silly currentTree ├── performance-now@2.1.0
+119 silly currentTree ├── phantomjs-prebuilt@2.1.16
+119 silly currentTree ├── pify@2.3.0
+119 silly currentTree ├── pinkie-promise@2.0.1
+119 silly currentTree ├── pinkie@2.0.4
+119 silly currentTree ├── pngcrush-bin@4.0.0
+119 silly currentTree ├── pngout-bin@4.0.0
+119 silly currentTree ├─┬ pngquant-bin@5.0.2
+119 silly currentTree │ ├── cross-spawn@6.0.5
+119 silly currentTree │ ├── execa@0.10.0
+119 silly currentTree │ └── get-stream@3.0.0
+119 silly currentTree ├── prepend-http@1.0.4
+119 silly currentTree ├── preserve@0.2.0
+119 silly currentTree ├── process-nextick-args@2.0.1
+119 silly currentTree ├── progress@1.1.8
+119 silly currentTree ├── promise-nodeify@3.0.1
+119 silly currentTree ├── proto-list@1.2.4
+119 silly currentTree ├── proxying-agent@2.4.0
+119 silly currentTree ├── pseudomap@1.0.2
+119 silly currentTree ├── psl@1.2.0
+119 silly currentTree ├── pump@3.0.0
+119 silly currentTree ├── punycode@2.1.1
+119 silly currentTree ├── q@1.5.1
+119 silly currentTree ├── qs@6.5.2
+119 silly currentTree ├── query-string@5.1.1
+119 silly currentTree ├─┬ randomatic@3.1.1
+119 silly currentTree │ ├── is-number@4.0.0
+119 silly currentTree │ └── kind-of@6.0.2
+119 silly currentTree ├─┬ rc@1.2.8
+119 silly currentTree │ └── minimist@1.2.0
+119 silly currentTree ├── read-all-stream@3.1.0
+119 silly currentTree ├── read-pkg-up@1.0.1
+119 silly currentTree ├── read-pkg@1.1.0
+119 silly currentTree ├── readable-stream@2.3.6
+119 silly currentTree ├── redent@1.0.0
+119 silly currentTree ├── regex-cache@0.4.4
+119 silly currentTree ├── remarkable@1.7.1
+119 silly currentTree ├── remove-trailing-separator@1.1.0
+119 silly currentTree ├── repeat-element@1.1.3
+119 silly currentTree ├── repeat-string@1.6.1
+119 silly currentTree ├── repeating@2.0.1
+119 silly currentTree ├── replace-ext@0.0.1
+119 silly currentTree ├── request-progress@2.0.1
+119 silly currentTree ├── request@2.88.0
+119 silly currentTree ├── resolve@1.11.1
+119 silly currentTree ├── responselike@1.0.2
+119 silly currentTree ├── rimraf@2.6.3
+119 silly currentTree ├── safe-buffer@5.1.2
+119 silly currentTree ├── safer-buffer@2.1.2
+119 silly currentTree ├── sax@1.2.4
+119 silly currentTree ├─┬ seek-bzip@1.0.5
+119 silly currentTree │ └── commander@2.8.1
+119 silly currentTree ├── semver-regex@2.0.0
+119 silly currentTree ├── semver-truncate@1.1.2
+119 silly currentTree ├── semver@5.7.0
+119 silly currentTree ├── series-stream@1.0.1
+119 silly currentTree ├── set-immediate-shim@1.0.1
+119 silly currentTree ├── shebang-command@1.2.0
+119 silly currentTree ├── shebang-regex@1.0.0
+119 silly currentTree ├── signal-exit@3.0.2
+119 silly currentTree ├── sort-keys-length@1.0.1
+119 silly currentTree ├── sort-keys@1.1.2
+119 silly currentTree ├── source-map@0.5.7
+119 silly currentTree ├── sparkles@1.0.1
+119 silly currentTree ├── spdx-correct@3.1.0
+119 silly currentTree ├── spdx-exceptions@2.2.0
+119 silly currentTree ├── spdx-expression-parse@3.0.0
+119 silly currentTree ├── spdx-license-ids@3.0.4
+119 silly currentTree ├── sprintf-js@1.0.3
+119 silly currentTree ├── squeak@1.3.0
+119 silly currentTree ├── sshpk@1.16.1
+119 silly currentTree ├── stable@0.1.8
+119 silly currentTree ├── stat-mode@0.2.2
+119 silly currentTree ├── stream-combiner2@1.1.1
+119 silly currentTree ├── stream-from-to@1.4.3
+119 silly currentTree ├── stream-shift@1.0.0
+119 silly currentTree ├── strict-uri-encode@1.1.0
+119 silly currentTree ├── string_decoder@1.1.1
+119 silly currentTree ├── strip-ansi@3.0.1
+119 silly currentTree ├── strip-bom-stream@1.0.0
+119 silly currentTree ├── strip-bom@2.0.0
+119 silly currentTree ├── strip-dirs@2.1.0
+119 silly currentTree ├── strip-eof@1.0.0
+119 silly currentTree ├── strip-indent@1.0.1
+119 silly currentTree ├── strip-json-comments@2.0.1
+119 silly currentTree ├── strip-outer@1.0.1
+119 silly currentTree ├── sum-up@1.0.3
+119 silly currentTree ├── supports-color@2.0.0
+119 silly currentTree ├─┬ svgo@1.2.2
+119 silly currentTree │ ├── ansi-styles@3.2.1
+119 silly currentTree │ ├── chalk@2.4.2
+119 silly currentTree │ ├── has-flag@3.0.0
+119 silly currentTree │ └── supports-color@5.5.0
+119 silly currentTree ├── tar-stream@1.6.2
+119 silly currentTree ├── temp-dir@1.0.0
+119 silly currentTree ├── tempfile@2.0.0
+119 silly currentTree ├── throttleit@1.0.0
+119 silly currentTree ├── through@2.3.8
+119 silly currentTree ├── through2-filter@2.0.0
+119 silly currentTree ├── through2@2.0.5
+119 silly currentTree ├── time-stamp@1.1.0
+119 silly currentTree ├── timed-out@4.0.1
+119 silly currentTree ├── tinify@1.5.0
+119 silly currentTree ├── tmp@0.0.33
+119 silly currentTree ├── to-absolute-glob@0.1.1
+119 silly currentTree ├── to-buffer@1.1.1
+119 silly currentTree ├─┬ tough-cookie@2.4.3
+119 silly currentTree │ └── punycode@1.4.1
+119 silly currentTree ├── trim-newlines@1.0.0
+119 silly currentTree ├── trim-repeated@1.0.0
+119 silly currentTree ├── tunnel-agent@0.6.0
+119 silly currentTree ├── tweetnacl@0.14.5
+119 silly currentTree ├── typedarray@0.0.6
+119 silly currentTree ├── unbzip2-stream@1.3.3
+119 silly currentTree ├── underscore.string@2.4.0
+119 silly currentTree ├── underscore@1.7.0
+119 silly currentTree ├─┬ unique-stream@2.3.1
+119 silly currentTree │ └── through2-filter@3.0.0
+119 silly currentTree ├── unquote@1.1.1
+119 silly currentTree ├── unzip-response@1.0.2
+119 silly currentTree ├── uri-js@4.2.2
+119 silly currentTree ├── url-parse-lax@1.0.0
+119 silly currentTree ├── url-regex@3.2.0
+119 silly currentTree ├── url-to-options@1.0.1
+119 silly currentTree ├── util-deprecate@1.0.2
+119 silly currentTree ├── util.promisify@1.0.0
+119 silly currentTree ├── uuid@3.3.2
+119 silly currentTree ├── vali-date@1.0.0
+119 silly currentTree ├── validate-npm-package-license@3.0.4
+119 silly currentTree ├── verror@1.10.0
+119 silly currentTree ├── vinyl-assign@1.2.1
+119 silly currentTree ├── vinyl-fs@2.4.4
+119 silly currentTree ├── vinyl@1.2.0
+119 silly currentTree ├── ware@1.3.0
+119 silly currentTree ├── which@1.3.1
+119 silly currentTree ├── wrap-fn@0.1.5
+119 silly currentTree ├── wrappy@1.0.2
+119 silly currentTree ├── xtend@4.0.1
+119 silly currentTree ├── yallist@2.1.2
+119 silly currentTree └── yauzl@2.4.1
+120 silly idealTree useful-scripts@1.0.0
+120 silly idealTree ├── @sindresorhus/is@0.7.0
+120 silly idealTree ├── @types/q@1.5.2
+120 silly idealTree ├── ajv@6.10.1
+120 silly idealTree ├── ansi-gray@0.1.1
+120 silly idealTree ├── ansi-regex@2.1.1
+120 silly idealTree ├── ansi-styles@2.2.1
+120 silly idealTree ├── ansi-wrap@0.1.0
+120 silly idealTree ├── arch@2.1.1
+120 silly idealTree ├─┬ archive-type@4.0.0
+120 silly idealTree │ └── file-type@4.4.0
+120 silly idealTree ├── argparse@0.1.16
+120 silly idealTree ├── arr-diff@2.0.0
+120 silly idealTree ├── arr-flatten@1.1.0
+120 silly idealTree ├── array-differ@1.0.0
+120 silly idealTree ├── array-find-index@1.0.2
+120 silly idealTree ├── array-uniq@2.1.0
+120 silly idealTree ├── array-unique@0.2.1
+120 silly idealTree ├── asn1@0.2.4
+120 silly idealTree ├── assert-plus@1.0.0
+120 silly idealTree ├── async-each-series@1.1.0
+120 silly idealTree ├── async@1.5.2
+120 silly idealTree ├── asynckit@0.4.0
+120 silly idealTree ├── autolinker@0.15.3
+120 silly idealTree ├── aws-sign2@0.7.0
+120 silly idealTree ├── aws4@1.8.0
+120 silly idealTree ├── balanced-match@1.0.0
+120 silly idealTree ├── base64-js@1.3.0
+120 silly idealTree ├── bcrypt-pbkdf@1.0.2
+120 silly idealTree ├── beeper@1.1.1
+120 silly idealTree ├── bin-build@3.0.0
+120 silly idealTree ├── bin-check@4.1.0
+120 silly idealTree ├── bin-version-check@4.0.0
+120 silly idealTree ├─┬ bin-version@3.1.0
+120 silly idealTree │ ├── cross-spawn@6.0.5
+120 silly idealTree │ ├── execa@1.0.0
+120 silly idealTree │ └── get-stream@4.1.0
+120 silly idealTree ├─┬ bin-wrapper@4.1.0
+120 silly idealTree │ ├─┬ download@7.1.0
+120 silly idealTree │ │ └── pify@3.0.0
+120 silly idealTree │ ├── file-type@8.1.0
+120 silly idealTree │ ├── get-stream@3.0.0
+120 silly idealTree │ ├─┬ got@8.3.2
+120 silly idealTree │ │ └── pify@3.0.0
+120 silly idealTree │ ├── p-cancelable@0.4.1
+120 silly idealTree │ ├── p-event@2.3.1
+120 silly idealTree │ ├── p-timeout@2.0.1
+120 silly idealTree │ ├── pify@4.0.1
+120 silly idealTree │ ├── prepend-http@2.0.0
+120 silly idealTree │ └── url-parse-lax@3.0.0
+120 silly idealTree ├── bl@1.2.2
+120 silly idealTree ├── boolbase@1.0.0
+120 silly idealTree ├── brace-expansion@1.1.11
+120 silly idealTree ├── braces@1.8.5
+120 silly idealTree ├── browser-stdout@1.3.0
+120 silly idealTree ├── buffer-alloc-unsafe@1.1.0
+120 silly idealTree ├── buffer-alloc@1.2.0
+120 silly idealTree ├── buffer-crc32@0.2.13
+120 silly idealTree ├── buffer-fill@1.0.0
+120 silly idealTree ├── buffer-from@1.1.1
+120 silly idealTree ├─┬ buffer-to-vinyl@1.1.0
+120 silly idealTree │ ├── file-type@3.9.0
+120 silly idealTree │ └── uuid@2.0.3
+120 silly idealTree ├── buffer@5.2.1
+120 silly idealTree ├── bytes@3.1.0
+120 silly idealTree ├─┬ cacheable-request@2.1.4
+120 silly idealTree │ ├── get-stream@3.0.0
+120 silly idealTree │ └── lowercase-keys@1.0.0
+120 silly idealTree ├── camelcase-keys@2.1.0
+120 silly idealTree ├── camelcase@2.1.1
+120 silly idealTree ├── capture-stack-trace@1.0.1
+120 silly idealTree ├── caseless@0.12.0
+120 silly idealTree ├── caw@2.0.1
+120 silly idealTree ├── chalk@1.1.3
+120 silly idealTree ├── clone-response@1.0.2
+120 silly idealTree ├── clone-stats@0.0.1
+120 silly idealTree ├── clone@1.0.4
+120 silly idealTree ├── co@3.1.0
+120 silly idealTree ├─┬ coa@2.0.2
+120 silly idealTree │ ├── ansi-styles@3.2.1
+120 silly idealTree │ ├── chalk@2.4.2
+120 silly idealTree │ ├── has-flag@3.0.0
+120 silly idealTree │ └── supports-color@5.5.0
+120 silly idealTree ├── color-convert@1.9.3
+120 silly idealTree ├── color-name@1.1.3
+120 silly idealTree ├── color-support@1.1.3
+120 silly idealTree ├── colors@1.3.3
+120 silly idealTree ├── combined-stream@1.0.8
+120 silly idealTree ├── commander@2.20.0
+120 silly idealTree ├── compress-images@1.5.8
+120 silly idealTree ├── concat-map@0.0.1
+120 silly idealTree ├── concat-stream@1.6.2
+120 silly idealTree ├── config-chain@1.1.12
+120 silly idealTree ├── console-stream@0.1.1
+120 silly idealTree ├── content-disposition@0.5.3
+120 silly idealTree ├── convert-source-map@1.6.0
+120 silly idealTree ├── core-util-is@1.0.2
+120 silly idealTree ├── create-error-class@3.0.2
+120 silly idealTree ├── cross-spawn@5.1.0
+120 silly idealTree ├── css-select-base-adapter@0.1.1
+120 silly idealTree ├── css-select@2.0.2
+120 silly idealTree ├── css-tree@1.0.0-alpha.28
+120 silly idealTree ├── css-url-regex@1.1.0
+120 silly idealTree ├── css-what@2.1.3
+120 silly idealTree ├─┬ csso@3.5.1
+120 silly idealTree │ └── css-tree@1.0.0-alpha.29
+120 silly idealTree ├── currently-unhandled@0.4.1
+120 silly idealTree ├── cwebp-bin@5.1.0
+120 silly idealTree ├── dashdash@1.14.1
+120 silly idealTree ├── dateformat@2.2.0
+120 silly idealTree ├── debug@2.6.9
+120 silly idealTree ├── decamelize@1.2.0
+120 silly idealTree ├── decode-uri-component@0.2.0
+120 silly idealTree ├── decompress-response@3.3.0
+120 silly idealTree ├── decompress-tar@4.1.1
+120 silly idealTree ├─┬ decompress-tarbz2@4.1.1
+120 silly idealTree │ └── file-type@6.2.0
+120 silly idealTree ├── decompress-targz@4.1.1
+120 silly idealTree ├─┬ decompress-unzip@4.0.1
+120 silly idealTree │ ├── fd-slicer@1.1.0
+120 silly idealTree │ ├── file-type@3.9.0
+120 silly idealTree │ └── yauzl@2.10.0
+120 silly idealTree ├── decompress@4.2.0
+120 silly idealTree ├── deep-extend@0.6.0
+120 silly idealTree ├── define-properties@1.1.3
+120 silly idealTree ├── delayed-stream@1.0.0
+120 silly idealTree ├── diff@3.3.1
+120 silly idealTree ├── dom-serializer@0.1.1
+120 silly idealTree ├── domelementtype@1.3.1
+120 silly idealTree ├── dompurify@1.0.11
+120 silly idealTree ├── domutils@1.7.0
+120 silly idealTree ├─┬ download@6.2.5
+120 silly idealTree │ ├── get-stream@3.0.0
+120 silly idealTree │ └── pify@3.0.0
+120 silly idealTree ├── duplexer@0.1.1
+120 silly idealTree ├── duplexer2@0.1.4
+120 silly idealTree ├── duplexer3@0.1.4
+120 silly idealTree ├── duplexify@3.7.1
+120 silly idealTree ├── each-async@1.1.1
+120 silly idealTree ├── ecc-jsbn@0.1.2
+120 silly idealTree ├── end-of-stream@1.4.1
+120 silly idealTree ├── entities@1.1.2
+120 silly idealTree ├── error-ex@1.3.2
+120 silly idealTree ├── es-abstract@1.13.0
+120 silly idealTree ├── es-to-primitive@1.2.0
+120 silly idealTree ├── es6-promise@4.2.8
+120 silly idealTree ├── escape-string-regexp@1.0.5
+120 silly idealTree ├── esprima@4.0.1
+120 silly idealTree ├── exec-series@1.0.3
+120 silly idealTree ├─┬ execa@0.7.0
+120 silly idealTree │ └── get-stream@3.0.0
+120 silly idealTree ├── executable@4.1.1
+120 silly idealTree ├── expand-brackets@0.1.5
+120 silly idealTree ├── expand-range@1.8.2
+120 silly idealTree ├── ext-list@2.2.2
+120 silly idealTree ├── ext-name@5.0.0
+120 silly idealTree ├── extend-shallow@2.0.1
+120 silly idealTree ├── extend@3.0.2
+120 silly idealTree ├─┬ extglob@0.3.2
+120 silly idealTree │ └── is-extglob@1.0.0
+120 silly idealTree ├── extract-zip@1.6.7
+120 silly idealTree ├── extsprintf@1.3.0
+120 silly idealTree ├── fancy-log@1.3.3
+120 silly idealTree ├── fast-deep-equal@2.0.1
+120 silly idealTree ├── fast-json-stable-stringify@2.0.0
+120 silly idealTree ├── fd-slicer@1.0.1
+120 silly idealTree ├── figures@1.7.0
+120 silly idealTree ├── file-type@5.2.0
+120 silly idealTree ├── filename-regex@2.0.1
+120 silly idealTree ├── filename-reserved-regex@2.0.0
+120 silly idealTree ├── filenamify@2.1.0
+120 silly idealTree ├── fill-range@2.2.4
+120 silly idealTree ├── find-up@1.1.2
+120 silly idealTree ├── find-versions@3.1.0
+120 silly idealTree ├── first-chunk-stream@1.0.0
+120 silly idealTree ├── for-in@1.0.2
+120 silly idealTree ├── for-own@0.1.5
+120 silly idealTree ├── forever-agent@0.6.1
+120 silly idealTree ├── form-data@2.3.3
+120 silly idealTree ├── from2@2.3.0
+120 silly idealTree ├── fs-constants@1.0.0
+120 silly idealTree ├── fs-extra@1.0.0
+120 silly idealTree ├── fs.realpath@1.0.0
+120 silly idealTree ├── function-bind@1.1.1
+120 silly idealTree ├── get-proxy@2.1.0
+120 silly idealTree ├── get-stdin@4.0.1
+120 silly idealTree ├── get-stream@2.3.1
+120 silly idealTree ├── getpass@0.1.7
+120 silly idealTree ├─┬ giflossy@3.0.41
+120 silly idealTree │ ├── archive-type@3.2.0
+120 silly idealTree │ ├── array-uniq@1.0.3
+120 silly idealTree │ ├── bin-build@2.2.0
+120 silly idealTree │ ├── bin-check@2.0.0
+120 silly idealTree │ ├── bin-version-check@2.1.0
+120 silly idealTree │ ├── bin-version@1.0.4
+120 silly idealTree │ ├── bin-wrapper@3.0.2
+120 silly idealTree │ ├─┬ caw@1.2.0
+120 silly idealTree │ │ └── object-assign@3.0.0
+120 silly idealTree │ ├── clone@0.2.0
+120 silly idealTree │ ├── decompress-tar@3.1.0
+120 silly idealTree │ ├── decompress-tarbz2@3.1.0
+120 silly idealTree │ ├── decompress-targz@3.1.0
+120 silly idealTree │ ├─┬ decompress-unzip@3.4.0
+120 silly idealTree │ │ ├── clone@1.0.4
+120 silly idealTree │ │ ├── isarray@1.0.0
+120 silly idealTree │ │ ├── readable-stream@2.3.6
+120 silly idealTree │ │ ├── string_decoder@1.1.1
+120 silly idealTree │ │ ├── through2@2.0.5
+120 silly idealTree │ │ └── vinyl@1.2.0
+120 silly idealTree │ ├── decompress@3.0.0
+120 silly idealTree │ ├─┬ download@4.4.3
+120 silly idealTree │ │ ├── clone@1.0.4
+120 silly idealTree │ │ ├── isarray@1.0.0
+120 silly idealTree │ │ ├── object-assign@4.1.1
+120 silly idealTree │ │ ├── readable-stream@2.3.6
+120 silly idealTree │ │ ├── string_decoder@1.1.1
+120 silly idealTree │ │ └── vinyl@1.2.0
+120 silly idealTree │ ├── executable@1.1.0
+120 silly idealTree │ ├── file-type@3.9.0
+120 silly idealTree │ ├── filename-reserved-regex@1.0.0
+120 silly idealTree │ ├── filenamify@1.2.1
+120 silly idealTree │ ├── find-versions@1.2.1
+120 silly idealTree │ ├── get-proxy@1.1.0
+120 silly idealTree │ ├─┬ got@5.7.1
+120 silly idealTree │ │ ├── isarray@1.0.0
+120 silly idealTree │ │ ├── object-assign@4.1.1
+120 silly idealTree │ │ ├── readable-stream@2.3.6
+120 silly idealTree │ │ └── string_decoder@1.1.1
+120 silly idealTree │ ├── is-natural-number@2.1.1
+120 silly idealTree │ ├── isarray@0.0.1
+120 silly idealTree │ ├── minimist@1.2.0
+120 silly idealTree │ ├── object-assign@2.1.1
+120 silly idealTree │ ├── os-filter-obj@1.0.3
+120 silly idealTree │ ├── readable-stream@1.0.34
+120 silly idealTree │ ├── semver-regex@1.0.0
+120 silly idealTree │ ├── semver@4.3.6
+120 silly idealTree │ ├── string_decoder@0.10.31
+120 silly idealTree │ ├── strip-dirs@1.1.1
+120 silly idealTree │ ├── tempfile@1.1.1
+120 silly idealTree │ ├── through2@0.6.5
+120 silly idealTree │ ├── timed-out@3.1.3
+120 silly idealTree │ ├── tunnel-agent@0.4.3
+120 silly idealTree │ ├── uuid@2.0.3
+120 silly idealTree │ └── vinyl@0.4.6
+120 silly idealTree ├─┬ gifsicle@4.0.1
+120 silly idealTree │ ├── cross-spawn@6.0.5
+120 silly idealTree │ ├── execa@1.0.0
+120 silly idealTree │ └── get-stream@4.1.0
+120 silly idealTree ├─┬ glob-base@0.3.0
+120 silly idealTree │ ├── glob-parent@2.0.0
+120 silly idealTree │ ├── is-extglob@1.0.0
+120 silly idealTree │ └── is-glob@2.0.1
+120 silly idealTree ├── glob-parent@3.1.0
+120 silly idealTree ├─┬ glob-stream@5.3.5
+120 silly idealTree │ ├── glob@5.0.15
+120 silly idealTree │ ├── isarray@0.0.1
+120 silly idealTree │ ├── readable-stream@1.0.34
+120 silly idealTree │ ├── string_decoder@0.10.31
+120 silly idealTree │ └── through2@0.6.5
+120 silly idealTree ├── glob@7.1.4
+120 silly idealTree ├── glogg@1.0.2
+120 silly idealTree ├─┬ got@7.1.0
+120 silly idealTree │ └── get-stream@3.0.0
+120 silly idealTree ├── graceful-fs@4.2.0
+120 silly idealTree ├── graceful-readlink@1.0.1
+120 silly idealTree ├── growl@1.10.3
+120 silly idealTree ├── guetzli@2.0.0
+120 silly idealTree ├─┬ gulp-decompress@1.2.0
+120 silly idealTree │ ├── archive-type@3.2.0
+120 silly idealTree │ ├── clone@0.2.0
+120 silly idealTree │ ├── decompress-tar@3.1.0
+120 silly idealTree │ ├── decompress-tarbz2@3.1.0
+120 silly idealTree │ ├── decompress-targz@3.1.0
+120 silly idealTree │ ├─┬ decompress-unzip@3.4.0
+120 silly idealTree │ │ ├── clone@1.0.4
+120 silly idealTree │ │ ├── through2@2.0.5
+120 silly idealTree │ │ └── vinyl@1.2.0
+120 silly idealTree │ ├── decompress@3.0.0
+120 silly idealTree │ ├── file-type@3.9.0
+120 silly idealTree │ ├── is-natural-number@2.1.1
+120 silly idealTree │ ├── isarray@0.0.1
+120 silly idealTree │ ├── minimist@1.2.0
+120 silly idealTree │ ├── object-assign@2.1.1
+120 silly idealTree │ ├── string_decoder@0.10.31
+120 silly idealTree │ ├── strip-dirs@1.1.1
+120 silly idealTree │ ├─┬ through2@0.6.5
+120 silly idealTree │ │ └── readable-stream@1.0.34
+120 silly idealTree │ └── vinyl@0.4.6
+120 silly idealTree ├── gulp-rename@1.4.0
+120 silly idealTree ├── gulp-sourcemaps@1.6.0
+120 silly idealTree ├─┬ gulp-util@3.0.8
+120 silly idealTree │ ├── array-uniq@1.0.3
+120 silly idealTree │ ├── minimist@1.2.0
+120 silly idealTree │ ├── object-assign@3.0.0
+120 silly idealTree │ └── vinyl@0.5.3
+120 silly idealTree ├── gulplog@1.0.0
+120 silly idealTree ├── har-schema@2.0.0
+120 silly idealTree ├── har-validator@5.1.3
+120 silly idealTree ├── has-ansi@2.0.0
+120 silly idealTree ├── has-flag@2.0.0
+120 silly idealTree ├── has-gulplog@0.1.0
+120 silly idealTree ├── has-symbol-support-x@1.4.2
+120 silly idealTree ├── has-symbols@1.0.0
+120 silly idealTree ├── has-to-string-tag-x@1.4.1
+120 silly idealTree ├── has@1.0.3
+120 silly idealTree ├── hasha@2.2.0
+120 silly idealTree ├── he@1.1.1
+120 silly idealTree ├── highlight.js@9.15.8
+120 silly idealTree ├── hosted-git-info@2.7.1
+120 silly idealTree ├── http-cache-semantics@3.8.1
+120 silly idealTree ├── http-signature@1.2.0
+120 silly idealTree ├── ieee754@1.1.13
+120 silly idealTree ├── import-lazy@3.1.0
+120 silly idealTree ├── indent-string@2.1.0
+120 silly idealTree ├── inflight@1.0.6
+120 silly idealTree ├── inherits@2.0.4
+120 silly idealTree ├── ini@1.3.5
+120 silly idealTree ├── into-stream@3.1.0
+120 silly idealTree ├── ip-regex@1.0.3
+120 silly idealTree ├── is-absolute@0.1.7
+120 silly idealTree ├── is-arrayish@0.2.1
+120 silly idealTree ├── is-buffer@1.1.6
+120 silly idealTree ├── is-bzip2@1.0.0
+120 silly idealTree ├── is-callable@1.1.4
+120 silly idealTree ├── is-date-object@1.0.1
+120 silly idealTree ├── is-dotfile@1.0.3
+120 silly idealTree ├── is-equal-shallow@0.1.3
+120 silly idealTree ├── is-extendable@0.1.1
+120 silly idealTree ├── is-extglob@2.1.1
+120 silly idealTree ├── is-finite@1.0.2
+120 silly idealTree ├── is-glob@3.1.0
+120 silly idealTree ├── is-gzip@1.0.0
+120 silly idealTree ├── is-natural-number@4.0.1
+120 silly idealTree ├── is-number@2.1.0
+120 silly idealTree ├── is-obj@1.0.1
+120 silly idealTree ├── is-object@1.0.1
+120 silly idealTree ├── is-plain-obj@1.1.0
+120 silly idealTree ├── is-posix-bracket@0.1.1
+120 silly idealTree ├── is-primitive@2.0.0
+120 silly idealTree ├── is-redirect@1.0.0
+120 silly idealTree ├── is-regex@1.0.4
+120 silly idealTree ├── is-relative@0.1.3
+120 silly idealTree ├── is-retry-allowed@1.1.0
+120 silly idealTree ├── is-stream@1.1.0
+120 silly idealTree ├── is-symbol@1.0.2
+120 silly idealTree ├── is-tar@1.0.0
+120 silly idealTree ├── is-typedarray@1.0.0
+120 silly idealTree ├── is-url@1.2.4
+120 silly idealTree ├── is-utf8@0.2.1
+120 silly idealTree ├── is-valid-glob@0.3.0
+120 silly idealTree ├── is-zip@1.0.0
+120 silly idealTree ├── isarray@1.0.0
+120 silly idealTree ├── isexe@2.0.0
+120 silly idealTree ├── isobject@2.1.0
+120 silly idealTree ├── isstream@0.1.2
+120 silly idealTree ├── isurl@1.0.0
+120 silly idealTree ├── jpeg-recompress-bin@4.0.0
+120 silly idealTree ├── jpegoptim-bin@5.1.0
+120 silly idealTree ├── jpegtran-bin@4.0.0
+120 silly idealTree ├─┬ js-yaml@3.13.1
+120 silly idealTree │ └── argparse@1.0.10
+120 silly idealTree ├── jsbn@0.1.1
+120 silly idealTree ├── json-buffer@3.0.0
+120 silly idealTree ├── json-schema-traverse@0.4.1
+120 silly idealTree ├── json-schema@0.2.3
+120 silly idealTree ├── json-stable-stringify-without-jsonify@1.0.1
+120 silly idealTree ├── json-stringify-safe@5.0.1
+120 silly idealTree ├── jsonfile@2.4.0
+120 silly idealTree ├── jsprim@1.4.1
+120 silly idealTree ├── kew@0.7.0
+120 silly idealTree ├── keyv@3.0.0
+120 silly idealTree ├── kind-of@3.2.2
+120 silly idealTree ├── klaw@1.3.1
+120 silly idealTree ├── lazy-req@1.1.0
+120 silly idealTree ├── lazystream@1.0.0
+120 silly idealTree ├── load-json-file@1.1.0
+120 silly idealTree ├── lodash._basecopy@3.0.1
+120 silly idealTree ├── lodash._basetostring@3.0.1
+120 silly idealTree ├── lodash._basevalues@3.0.0
+120 silly idealTree ├── lodash._getnative@3.9.1
+120 silly idealTree ├── lodash._isiterateecall@3.0.9
+120 silly idealTree ├── lodash._reescape@3.0.0
+120 silly idealTree ├── lodash._reevaluate@3.0.0
+120 silly idealTree ├── lodash._reinterpolate@3.0.0
+120 silly idealTree ├── lodash._root@3.0.1
+120 silly idealTree ├── lodash.escape@3.2.0
+120 silly idealTree ├── lodash.isarguments@3.1.0
+120 silly idealTree ├── lodash.isarray@3.0.4
+120 silly idealTree ├── lodash.isequal@4.5.0
+120 silly idealTree ├── lodash.keys@3.1.2
+120 silly idealTree ├── lodash.restparam@3.6.1
+120 silly idealTree ├── lodash.template@3.6.2
+120 silly idealTree ├── lodash.templatesettings@3.1.1
+120 silly idealTree ├── logalot@2.1.0
+120 silly idealTree ├── longest@1.0.1
+120 silly idealTree ├── loud-rejection@1.6.0
+120 silly idealTree ├── lowercase-keys@1.0.1
+120 silly idealTree ├── lpad-align@1.1.2
+120 silly idealTree ├── lru-cache@4.1.5
+120 silly idealTree ├─┬ make-dir@1.3.0
+120 silly idealTree │ └── pify@3.0.0
+120 silly idealTree ├── map-obj@1.0.1
+120 silly idealTree ├── markdown-pdf@9.0.0
+120 silly idealTree ├── marked@0.7.0
+120 silly idealTree ├── math-random@1.0.4
+120 silly idealTree ├── mdn-data@1.1.4
+120 silly idealTree ├─┬ meow@3.7.0
+120 silly idealTree │ └── minimist@1.2.0
+120 silly idealTree ├── merge-stream@1.0.1
+120 silly idealTree ├─┬ micromatch@2.3.11
+120 silly idealTree │ ├── is-extglob@1.0.0
+120 silly idealTree │ └── is-glob@2.0.1
+120 silly idealTree ├── mime-db@1.40.0
+120 silly idealTree ├── mime-types@2.1.24
+120 silly idealTree ├── mimic-response@1.0.1
+120 silly idealTree ├── minimatch@3.0.4
+120 silly idealTree ├── minimist@0.0.8
+120 silly idealTree ├── mkdirp@0.5.1
+120 silly idealTree ├─┬ mocha@4.0.1
+120 silly idealTree │ ├── commander@2.11.0
+120 silly idealTree │ ├── debug@3.1.0
+120 silly idealTree │ ├── glob@7.1.2
+120 silly idealTree │ └── supports-color@4.4.0
+120 silly idealTree ├── mozjpeg@6.0.1
+120 silly idealTree ├── ms@2.0.0
+120 silly idealTree ├─┬ multipipe@0.1.2
+120 silly idealTree │ ├── duplexer2@0.0.2
+120 silly idealTree │ ├── isarray@0.0.1
+120 silly idealTree │ ├── readable-stream@1.1.14
+120 silly idealTree │ └── string_decoder@0.10.31
+120 silly idealTree ├── nice-try@1.0.5
+120 silly idealTree ├── node-status-codes@1.0.0
+120 silly idealTree ├── normalize-package-data@2.5.0
+120 silly idealTree ├── normalize-path@2.1.1
+120 silly idealTree ├─┬ normalize-url@2.0.1
+120 silly idealTree │ ├── prepend-http@2.0.0
+120 silly idealTree │ └── sort-keys@2.0.0
+120 silly idealTree ├─┬ npm-conf@1.1.3
+120 silly idealTree │ └── pify@3.0.0
+120 silly idealTree ├── npm-run-path@2.0.2
+120 silly idealTree ├── nth-check@1.0.2
+120 silly idealTree ├── number-is-nan@1.0.1
+120 silly idealTree ├── oauth-sign@0.9.0
+120 silly idealTree ├── object-assign@4.1.1
+120 silly idealTree ├── object-keys@1.1.1
+120 silly idealTree ├── object.getownpropertydescriptors@2.0.3
+120 silly idealTree ├── object.omit@2.0.1
+120 silly idealTree ├── object.values@1.1.0
+120 silly idealTree ├── once@1.4.0
+120 silly idealTree ├── onetime@1.1.0
+120 silly idealTree ├── optipng-bin@6.0.0
+120 silly idealTree ├── ordered-read-streams@0.3.0
+120 silly idealTree ├── os-filter-obj@2.0.0
+120 silly idealTree ├── os-tmpdir@1.0.2
+120 silly idealTree ├── p-cancelable@0.3.0
+120 silly idealTree ├── p-event@1.3.0
+120 silly idealTree ├── p-finally@1.0.0
+120 silly idealTree ├── p-is-promise@1.1.0
+120 silly idealTree ├── p-map-series@1.0.0
+120 silly idealTree ├── p-reduce@1.0.0
+120 silly idealTree ├── p-timeout@1.2.1
+120 silly idealTree ├─┬ parse-glob@3.0.4
+120 silly idealTree │ ├── is-extglob@1.0.0
+120 silly idealTree │ └── is-glob@2.0.1
+120 silly idealTree ├── parse-json@2.2.0
+120 silly idealTree ├── parse-node-version@1.0.1
+120 silly idealTree ├── path-dirname@1.0.2
+120 silly idealTree ├── path-exists@2.1.0
+120 silly idealTree ├── path-is-absolute@1.0.1
+120 silly idealTree ├── path-key@2.0.1
+120 silly idealTree ├── path-parse@1.0.6
+120 silly idealTree ├── path-type@1.1.0
+120 silly idealTree ├── pend@1.2.0
+120 silly idealTree ├── performance-now@2.1.0
+120 silly idealTree ├── phantomjs-prebuilt@2.1.16
+120 silly idealTree ├── pify@2.3.0
+120 silly idealTree ├── pinkie-promise@2.0.1
+120 silly idealTree ├── pinkie@2.0.4
+120 silly idealTree ├── pngcrush-bin@4.0.0
+120 silly idealTree ├── pngout-bin@4.0.0
+120 silly idealTree ├─┬ pngquant-bin@5.0.2
+120 silly idealTree │ ├── cross-spawn@6.0.5
+120 silly idealTree │ ├── execa@0.10.0
+120 silly idealTree │ └── get-stream@3.0.0
+120 silly idealTree ├── prepend-http@1.0.4
+120 silly idealTree ├── preserve@0.2.0
+120 silly idealTree ├── process-nextick-args@2.0.1
+120 silly idealTree ├── progress@1.1.8
+120 silly idealTree ├── promise-nodeify@3.0.1
+120 silly idealTree ├── proto-list@1.2.4
+120 silly idealTree ├── proxying-agent@2.4.0
+120 silly idealTree ├── pseudomap@1.0.2
+120 silly idealTree ├── psl@1.2.0
+120 silly idealTree ├── pump@3.0.0
+120 silly idealTree ├── punycode@2.1.1
+120 silly idealTree ├── q@1.5.1
+120 silly idealTree ├── qs@6.5.2
+120 silly idealTree ├── query-string@5.1.1
+120 silly idealTree ├─┬ randomatic@3.1.1
+120 silly idealTree │ ├── is-number@4.0.0
+120 silly idealTree │ └── kind-of@6.0.2
+120 silly idealTree ├─┬ rc@1.2.8
+120 silly idealTree │ └── minimist@1.2.0
+120 silly idealTree ├── read-all-stream@3.1.0
+120 silly idealTree ├── read-pkg-up@1.0.1
+120 silly idealTree ├── read-pkg@1.1.0
+120 silly idealTree ├── readable-stream@2.3.6
+120 silly idealTree ├── redent@1.0.0
+120 silly idealTree ├── regex-cache@0.4.4
+120 silly idealTree ├── remarkable@1.7.1
+120 silly idealTree ├── remove-trailing-separator@1.1.0
+120 silly idealTree ├── repeat-element@1.1.3
+120 silly idealTree ├── repeat-string@1.6.1
+120 silly idealTree ├── repeating@2.0.1
+120 silly idealTree ├── replace-ext@0.0.1
+120 silly idealTree ├── request-progress@2.0.1
+120 silly idealTree ├── request@2.88.0
+120 silly idealTree ├── resolve@1.11.1
+120 silly idealTree ├── responselike@1.0.2
+120 silly idealTree ├── rimraf@2.6.3
+120 silly idealTree ├── safe-buffer@5.1.2
+120 silly idealTree ├── safer-buffer@2.1.2
+120 silly idealTree ├── sax@1.2.4
+120 silly idealTree ├─┬ seek-bzip@1.0.5
+120 silly idealTree │ └── commander@2.8.1
+120 silly idealTree ├── semver-regex@2.0.0
+120 silly idealTree ├── semver-truncate@1.1.2
+120 silly idealTree ├── semver@5.7.0
+120 silly idealTree ├── series-stream@1.0.1
+120 silly idealTree ├── set-immediate-shim@1.0.1
+120 silly idealTree ├── shebang-command@1.2.0
+120 silly idealTree ├── shebang-regex@1.0.0
+120 silly idealTree ├── signal-exit@3.0.2
+120 silly idealTree ├── sort-keys-length@1.0.1
+120 silly idealTree ├── sort-keys@1.1.2
+120 silly idealTree ├── source-map@0.5.7
+120 silly idealTree ├── sparkles@1.0.1
+120 silly idealTree ├── spdx-correct@3.1.0
+120 silly idealTree ├── spdx-exceptions@2.2.0
+120 silly idealTree ├── spdx-expression-parse@3.0.0
+120 silly idealTree ├── spdx-license-ids@3.0.4
+120 silly idealTree ├── sprintf-js@1.0.3
+120 silly idealTree ├── squeak@1.3.0
+120 silly idealTree ├── sshpk@1.16.1
+120 silly idealTree ├── stable@0.1.8
+120 silly idealTree ├── stat-mode@0.2.2
+120 silly idealTree ├── stream-combiner2@1.1.1
+120 silly idealTree ├── stream-from-to@1.4.3
+120 silly idealTree ├── stream-shift@1.0.0
+120 silly idealTree ├── strict-uri-encode@1.1.0
+120 silly idealTree ├── string_decoder@1.1.1
+120 silly idealTree ├── strip-ansi@3.0.1
+120 silly idealTree ├── strip-bom-stream@1.0.0
+120 silly idealTree ├── strip-bom@2.0.0
+120 silly idealTree ├── strip-dirs@2.1.0
+120 silly idealTree ├── strip-eof@1.0.0
+120 silly idealTree ├── strip-indent@1.0.1
+120 silly idealTree ├── strip-json-comments@2.0.1
+120 silly idealTree ├── strip-outer@1.0.1
+120 silly idealTree ├── sum-up@1.0.3
+120 silly idealTree ├── supports-color@2.0.0
+120 silly idealTree ├─┬ svgo@1.2.2
+120 silly idealTree │ ├── ansi-styles@3.2.1
+120 silly idealTree │ ├── chalk@2.4.2
+120 silly idealTree │ ├── has-flag@3.0.0
+120 silly idealTree │ └── supports-color@5.5.0
+120 silly idealTree ├── tar-stream@1.6.2
+120 silly idealTree ├── temp-dir@1.0.0
+120 silly idealTree ├── tempfile@2.0.0
+120 silly idealTree ├── throttleit@1.0.0
+120 silly idealTree ├── through@2.3.8
+120 silly idealTree ├── through2-filter@2.0.0
+120 silly idealTree ├── through2@2.0.5
+120 silly idealTree ├── time-stamp@1.1.0
+120 silly idealTree ├── timed-out@4.0.1
+120 silly idealTree ├── tinify@1.5.0
+120 silly idealTree ├── tmp@0.0.33
+120 silly idealTree ├── to-absolute-glob@0.1.1
+120 silly idealTree ├── to-buffer@1.1.1
+120 silly idealTree ├─┬ tough-cookie@2.4.3
+120 silly idealTree │ └── punycode@1.4.1
+120 silly idealTree ├── trim-newlines@1.0.0
+120 silly idealTree ├── trim-repeated@1.0.0
+120 silly idealTree ├── tunnel-agent@0.6.0
+120 silly idealTree ├── tweetnacl@0.14.5
+120 silly idealTree ├── typedarray@0.0.6
+120 silly idealTree ├── unbzip2-stream@1.3.3
+120 silly idealTree ├── underscore.string@2.4.0
+120 silly idealTree ├── underscore@1.7.0
+120 silly idealTree ├─┬ unique-stream@2.3.1
+120 silly idealTree │ └── through2-filter@3.0.0
+120 silly idealTree ├── unquote@1.1.1
+120 silly idealTree ├── unzip-response@1.0.2
+120 silly idealTree ├── uri-js@4.2.2
+120 silly idealTree ├── url-parse-lax@1.0.0
+120 silly idealTree ├── url-regex@3.2.0
+120 silly idealTree ├── url-to-options@1.0.1
+120 silly idealTree ├── util-deprecate@1.0.2
+120 silly idealTree ├── util.promisify@1.0.0
+120 silly idealTree ├── uuid@3.3.2
+120 silly idealTree ├── vali-date@1.0.0
+120 silly idealTree ├── validate-npm-package-license@3.0.4
+120 silly idealTree ├── verror@1.10.0
+120 silly idealTree ├── vinyl-assign@1.2.1
+120 silly idealTree ├── vinyl-fs@2.4.4
+120 silly idealTree ├── vinyl@1.2.0
+120 silly idealTree ├── ware@1.3.0
+120 silly idealTree ├── which@1.3.1
+120 silly idealTree ├── wrap-fn@0.1.5
+120 silly idealTree ├── wrappy@1.0.2
+120 silly idealTree ├── xtend@4.0.1
+120 silly idealTree ├── yallist@2.1.2
+120 silly idealTree └── yauzl@2.4.1
+121 silly generateActionsToTake Starting
+122 silly install generateActionsToTake
+123 silly generateActionsToTake Finishing
+124 silly diffTrees action count 2
+125 silly diffTrees add jpegoptim-bin@5.1.0
+126 silly diffTrees add compress-images@1.5.8
+127 silly decomposeActions action count 16
+128 silly decomposeActions fetch jpegoptim-bin@5.1.0
+129 silly decomposeActions extract jpegoptim-bin@5.1.0
+130 silly decomposeActions test jpegoptim-bin@5.1.0
+131 silly decomposeActions preinstall jpegoptim-bin@5.1.0
+132 silly decomposeActions build jpegoptim-bin@5.1.0
+133 silly decomposeActions install jpegoptim-bin@5.1.0
+134 silly decomposeActions postinstall jpegoptim-bin@5.1.0
+135 silly decomposeActions finalize jpegoptim-bin@5.1.0
+136 silly decomposeActions fetch compress-images@1.5.8
+137 silly decomposeActions extract compress-images@1.5.8
+138 silly decomposeActions test compress-images@1.5.8
+139 silly decomposeActions preinstall compress-images@1.5.8
+140 silly decomposeActions build compress-images@1.5.8
+141 silly decomposeActions install compress-images@1.5.8
+142 silly decomposeActions postinstall compress-images@1.5.8
+143 silly decomposeActions finalize compress-images@1.5.8
+144 silly runTopLevelLifecycles Starting
+145 silly executeActions Starting
+146 silly install executeActions
+147 silly doSerial global-install 0
+148 silly doParallel fetch 2
+149 verbose correctMkdir /Users/aniketjha/.npm/_locks correctMkdir not in flight; initializing
+150 verbose lock using /Users/aniketjha/.npm/_locks/staging-4350ffdb2dd4ef1d.lock for /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging
+151 silly doParallel extract 2
+152 silly extract jpegoptim-bin@5.1.0
+153 silly extract compress-images@1.5.8
+154 verbose unbuild node_modules/.staging/compress-images-71cd90de
+155 verbose unbuild node_modules/.staging/jpegoptim-bin-f78a2775
+156 silly gentlyRm /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de is being purged from base /Users/aniketjha/Desktop/useful-scripts
+157 verbose gentlyRm don't care about contents; nuking /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de
+158 silly gentlyRm /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775 is being purged from base /Users/aniketjha/Desktop/useful-scripts
+159 verbose gentlyRm don't care about contents; nuking /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775
+160 verbose tar unpack /Users/aniketjha/.npm/compress-images/1.5.8/package.tgz
+161 verbose tar unpacking to /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de
+162 silly gentlyRm /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de is being purged
+163 verbose gentlyRm don't care about contents; nuking /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de
+164 verbose tar unpack /Users/aniketjha/.npm/jpegoptim-bin/5.1.0/package.tgz
+165 verbose tar unpacking to /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775
+166 silly gentlyRm /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775 is being purged
+167 verbose gentlyRm don't care about contents; nuking /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775
+168 silly gunzTarPerm modes [ '755', '644' ]
+169 silly gunzTarPerm modes [ '755', '644' ]
+170 silly gunzTarPerm extractEntry package.json
+171 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+172 silly gunzTarPerm extractEntry package.json
+173 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+174 silly gunzTarPerm extractEntry index.js
+175 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+176 silly gunzTarPerm extractEntry cli.js
+177 silly gunzTarPerm modified mode [ 'cli.js', 438, 420 ]
+178 silly gunzTarPerm extractEntry index.js
+179 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+180 silly gunzTarPerm extractEntry LICENSE
+181 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+182 silly gunzTarPerm extractEntry license
+183 silly gunzTarPerm modified mode [ 'license', 438, 420 ]
+184 silly gunzTarPerm extractEntry readme.md
+185 silly gunzTarPerm modified mode [ 'readme.md', 438, 420 ]
+186 silly gunzTarPerm extractEntry README.md
+187 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+188 silly gunzTarPerm extractEntry lib/updater/alert.js
+189 silly gunzTarPerm modified mode [ 'lib/updater/alert.js', 438, 420 ]
+190 silly gunzTarPerm extractEntry lib/updater/cache.json
+191 silly gunzTarPerm modified mode [ 'lib/updater/cache.json', 438, 420 ]
+192 silly gunzTarPerm extractEntry lib/index.js
+193 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+194 silly gunzTarPerm extractEntry lib/install.js
+195 silly gunzTarPerm modified mode [ 'lib/install.js', 438, 420 ]
+196 silly gunzTarPerm extractEntry lib/updater/index.js
+197 silly gunzTarPerm modified mode [ 'lib/updater/index.js', 438, 420 ]
+198 silly gunzTarPerm extractEntry lib/webp/index.js
+199 silly gunzTarPerm modified mode [ 'lib/webp/index.js', 438, 420 ]
+200 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/anim_diff
+201 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/anim_diff',
+201 silly gunzTarPerm   438,
+201 silly gunzTarPerm   420 ]
+202 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/cwebp
+203 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/cwebp',
+203 silly gunzTarPerm   438,
+203 silly gunzTarPerm   420 ]
+204 silly gentlyRm /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775/node_modules is being purged
+205 verbose gentlyRm don't care about contents; nuking /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775/node_modules
+206 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/dwebp
+207 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/dwebp',
+207 silly gunzTarPerm   438,
+207 silly gunzTarPerm   420 ]
+208 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/gif2webp
+209 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/gif2webp',
+209 silly gunzTarPerm   438,
+209 silly gunzTarPerm   420 ]
+210 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/img2webp
+211 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/img2webp',
+211 silly gunzTarPerm   438,
+211 silly gunzTarPerm   420 ]
+212 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/vwebp
+213 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/vwebp',
+213 silly gunzTarPerm   438,
+213 silly gunzTarPerm   420 ]
+214 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/webpmux
+215 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/bin/webpmux',
+215 silly gunzTarPerm   438,
+215 silly gunzTarPerm   420 ]
+216 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/cwebp.html
+217 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/cwebp.html',
+217 silly gunzTarPerm   438,
+217 silly gunzTarPerm   420 ]
+218 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/cwebp.txt
+219 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/cwebp.txt',
+219 silly gunzTarPerm   438,
+219 silly gunzTarPerm   420 ]
+220 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/dwebp.html
+221 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/dwebp.html',
+221 silly gunzTarPerm   438,
+221 silly gunzTarPerm   420 ]
+222 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/dwebp.txt
+223 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/dwebp.txt',
+223 silly gunzTarPerm   438,
+223 silly gunzTarPerm   420 ]
+224 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/gif2webp.html
+225 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/gif2webp.html',
+225 silly gunzTarPerm   438,
+225 silly gunzTarPerm   420 ]
+226 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/gif2webp.txt
+227 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/gif2webp.txt',
+227 silly gunzTarPerm   438,
+227 silly gunzTarPerm   420 ]
+228 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/img2webp.html
+229 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/img2webp.html',
+229 silly gunzTarPerm   438,
+229 silly gunzTarPerm   420 ]
+230 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/img2webp.txt
+231 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/img2webp.txt',
+231 silly gunzTarPerm   438,
+231 silly gunzTarPerm   420 ]
+232 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/vwebp.html
+233 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/vwebp.html',
+233 silly gunzTarPerm   438,
+233 silly gunzTarPerm   420 ]
+234 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/vwebp.txt
+235 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/vwebp.txt',
+235 silly gunzTarPerm   438,
+235 silly gunzTarPerm   420 ]
+236 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/webpmux.html
+237 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/webpmux.html',
+237 silly gunzTarPerm   438,
+237 silly gunzTarPerm   420 ]
+238 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/webpmux.txt
+239 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/doc/webpmux.txt',
+239 silly gunzTarPerm   438,
+239 silly gunzTarPerm   420 ]
+240 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/decode.h
+241 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/decode.h',
+241 silly gunzTarPerm   438,
+241 silly gunzTarPerm   420 ]
+242 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/demux.h
+243 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/demux.h',
+243 silly gunzTarPerm   438,
+243 silly gunzTarPerm   420 ]
+244 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/encode.h
+245 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/encode.h',
+245 silly gunzTarPerm   438,
+245 silly gunzTarPerm   420 ]
+246 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/mux_types.h
+247 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/mux_types.h',
+247 silly gunzTarPerm   438,
+247 silly gunzTarPerm   420 ]
+248 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/mux.h
+249 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/mux.h',
+249 silly gunzTarPerm   438,
+249 silly gunzTarPerm   420 ]
+250 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/types.h
+251 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/include/webp/types.h',
+251 silly gunzTarPerm   438,
+251 silly gunzTarPerm   420 ]
+252 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/lib/libwebp.a
+253 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/lib/libwebp.a',
+253 silly gunzTarPerm   438,
+253 silly gunzTarPerm   420 ]
+254 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/lib/libwebpdemux.a
+255 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/lib/libwebpdemux.a',
+255 silly gunzTarPerm   438,
+255 silly gunzTarPerm   420 ]
+256 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/lib/libwebpmux.a
+257 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/lib/libwebpmux.a',
+257 silly gunzTarPerm   438,
+257 silly gunzTarPerm   420 ]
+258 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/README
+259 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/README', 438, 420 ]
+260 silly gunzTarPerm extractEntry lib/webp/linux/libwebp-0.6.0-linux-x86-32/README.mux
+261 silly gunzTarPerm modified mode [ 'lib/webp/linux/libwebp-0.6.0-linux-x86-32/README.mux',
+261 silly gunzTarPerm   438,
+261 silly gunzTarPerm   420 ]
+262 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/anim_diff
+263 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/anim_diff',
+263 silly gunzTarPerm   438,
+263 silly gunzTarPerm   420 ]
+264 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/cwebp
+265 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/cwebp', 438, 420 ]
+266 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/dwebp
+267 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/dwebp', 438, 420 ]
+268 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/gif2webp
+269 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/gif2webp', 438, 420 ]
+270 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/img2webp
+271 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/img2webp', 438, 420 ]
+272 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/vwebp
+273 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/vwebp', 438, 420 ]
+274 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/webpmux
+275 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/bin/webpmux', 438, 420 ]
+276 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/cwebp.html
+277 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/cwebp.html',
+277 silly gunzTarPerm   438,
+277 silly gunzTarPerm   420 ]
+278 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/cwebp.txt
+279 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/cwebp.txt',
+279 silly gunzTarPerm   438,
+279 silly gunzTarPerm   420 ]
+280 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/dwebp.html
+281 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/dwebp.html',
+281 silly gunzTarPerm   438,
+281 silly gunzTarPerm   420 ]
+282 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/dwebp.txt
+283 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/dwebp.txt',
+283 silly gunzTarPerm   438,
+283 silly gunzTarPerm   420 ]
+284 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/gif2webp.html
+285 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/gif2webp.html',
+285 silly gunzTarPerm   438,
+285 silly gunzTarPerm   420 ]
+286 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/gif2webp.txt
+287 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/gif2webp.txt',
+287 silly gunzTarPerm   438,
+287 silly gunzTarPerm   420 ]
+288 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/img2webp.html
+289 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/img2webp.html',
+289 silly gunzTarPerm   438,
+289 silly gunzTarPerm   420 ]
+290 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/img2webp.txt
+291 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/img2webp.txt',
+291 silly gunzTarPerm   438,
+291 silly gunzTarPerm   420 ]
+292 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/vwebp.html
+293 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/vwebp.html',
+293 silly gunzTarPerm   438,
+293 silly gunzTarPerm   420 ]
+294 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/vwebp.txt
+295 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/vwebp.txt',
+295 silly gunzTarPerm   438,
+295 silly gunzTarPerm   420 ]
+296 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/webpmux.html
+297 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/webpmux.html',
+297 silly gunzTarPerm   438,
+297 silly gunzTarPerm   420 ]
+298 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/webpmux.txt
+299 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/doc/webpmux.txt',
+299 silly gunzTarPerm   438,
+299 silly gunzTarPerm   420 ]
+300 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/decode.h
+301 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/decode.h',
+301 silly gunzTarPerm   438,
+301 silly gunzTarPerm   420 ]
+302 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/demux.h
+303 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/demux.h',
+303 silly gunzTarPerm   438,
+303 silly gunzTarPerm   420 ]
+304 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/encode.h
+305 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/encode.h',
+305 silly gunzTarPerm   438,
+305 silly gunzTarPerm   420 ]
+306 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/mux_types.h
+307 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/mux_types.h',
+307 silly gunzTarPerm   438,
+307 silly gunzTarPerm   420 ]
+308 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/mux.h
+309 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/mux.h',
+309 silly gunzTarPerm   438,
+309 silly gunzTarPerm   420 ]
+310 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/types.h
+311 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/include/webp/types.h',
+311 silly gunzTarPerm   438,
+311 silly gunzTarPerm   420 ]
+312 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/lib/libwebp.a
+313 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/lib/libwebp.a',
+313 silly gunzTarPerm   438,
+313 silly gunzTarPerm   420 ]
+314 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/lib/libwebpdemux.a
+315 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/lib/libwebpdemux.a',
+315 silly gunzTarPerm   438,
+315 silly gunzTarPerm   420 ]
+316 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/lib/libwebpmux.a
+317 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/lib/libwebpmux.a',
+317 silly gunzTarPerm   438,
+317 silly gunzTarPerm   420 ]
+318 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/README
+319 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/README', 438, 420 ]
+320 silly gunzTarPerm extractEntry lib/webp/mac/libwebp-0.6.0-mac-10.12/README.mux
+321 silly gunzTarPerm modified mode [ 'lib/webp/mac/libwebp-0.6.0-mac-10.12/README.mux', 438, 420 ]
+322 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/anim_diff.exe
+323 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/anim_diff.exe',
+323 silly gunzTarPerm   438,
+323 silly gunzTarPerm   420 ]
+324 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/cwebp.exe
+325 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/cwebp.exe',
+325 silly gunzTarPerm   438,
+325 silly gunzTarPerm   420 ]
+326 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/dwebp.exe
+327 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/dwebp.exe',
+327 silly gunzTarPerm   438,
+327 silly gunzTarPerm   420 ]
+328 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/freeglut.dll
+329 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/freeglut.dll',
+329 silly gunzTarPerm   438,
+329 silly gunzTarPerm   420 ]
+330 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/get_disto.exe
+331 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/get_disto.exe',
+331 silly gunzTarPerm   438,
+331 silly gunzTarPerm   420 ]
+332 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/gif2webp.exe
+333 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/gif2webp.exe',
+333 silly gunzTarPerm   438,
+333 silly gunzTarPerm   420 ]
+334 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/img2webp.exe
+335 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/img2webp.exe',
+335 silly gunzTarPerm   438,
+335 silly gunzTarPerm   420 ]
+336 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/vwebp.exe
+337 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/vwebp.exe',
+337 silly gunzTarPerm   438,
+337 silly gunzTarPerm   420 ]
+338 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/webp_quality.exe
+339 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/webp_quality.exe',
+339 silly gunzTarPerm   438,
+339 silly gunzTarPerm   420 ]
+340 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/bin/webpmux.exe
+341 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/bin/webpmux.exe',
+341 silly gunzTarPerm   438,
+341 silly gunzTarPerm   420 ]
+342 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/decode.h
+343 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/decode.h',
+343 silly gunzTarPerm   438,
+343 silly gunzTarPerm   420 ]
+344 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/demux.h
+345 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/demux.h',
+345 silly gunzTarPerm   438,
+345 silly gunzTarPerm   420 ]
+346 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/encode.h
+347 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/encode.h',
+347 silly gunzTarPerm   438,
+347 silly gunzTarPerm   420 ]
+348 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/mux_types.h
+349 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/mux_types.h',
+349 silly gunzTarPerm   438,
+349 silly gunzTarPerm   420 ]
+350 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/mux.h
+351 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/mux.h',
+351 silly gunzTarPerm   438,
+351 silly gunzTarPerm   420 ]
+352 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/types.h
+353 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/include/webp/types.h',
+353 silly gunzTarPerm   438,
+353 silly gunzTarPerm   420 ]
+354 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/lib/libwebp.lib
+355 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/lib/libwebp.lib',
+355 silly gunzTarPerm   438,
+355 silly gunzTarPerm   420 ]
+356 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/Readme-mux.txt
+357 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/Readme-mux.txt',
+357 silly gunzTarPerm   438,
+357 silly gunzTarPerm   420 ]
+358 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/Readme.txt
+359 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/Readme.txt', 438, 420 ]
+360 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/test_ref.ppm
+361 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/test_ref.ppm',
+361 silly gunzTarPerm   438,
+361 silly gunzTarPerm   420 ]
+362 silly gunzTarPerm extractEntry lib/webp/win/libwebp-0.6.0-windows-x86/test.webp
+363 silly gunzTarPerm modified mode [ 'lib/webp/win/libwebp-0.6.0-windows-x86/test.webp', 438, 420 ]
+364 silly gentlyRm /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de/node_modules is being purged
+365 verbose gentlyRm don't care about contents; nuking /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de/node_modules
+366 silly doParallel preinstall 2
+367 silly preinstall jpegoptim-bin@5.1.0 /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775
+368 info lifecycle jpegoptim-bin@5.1.0~preinstall: jpegoptim-bin@5.1.0
+369 silly preinstall compress-images@1.5.8 /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de
+370 info lifecycle compress-images@1.5.8~preinstall: compress-images@1.5.8
+371 silly lifecycle jpegoptim-bin@5.1.0~preinstall: no script for preinstall, continuing
+372 silly lifecycle compress-images@1.5.8~preinstall: no script for preinstall, continuing
+373 silly doReverseSerial remove 0
+374 silly doSerial move 0
+375 silly doSerial finalize 2
+376 silly finalize /Users/aniketjha/Desktop/useful-scripts/node_modules/jpegoptim-bin
+377 silly finalize /Users/aniketjha/Desktop/useful-scripts/node_modules/compress-images
+378 silly doSerial build 2
+379 silly build jpegoptim-bin@5.1.0
+380 info linkStuff jpegoptim-bin@5.1.0
+381 silly linkStuff jpegoptim-bin@5.1.0 has /Users/aniketjha/Desktop/useful-scripts/node_modules as its parent node_modules
+382 verbose linkBins jpegoptim-bin@5.1.0
+383 verbose link bins [ { jpegoptim: 'cli.js' },
+383 verbose link bins   '/Users/aniketjha/Desktop/useful-scripts/node_modules/.bin',
+383 verbose link bins   false ]
+384 verbose linkMans jpegoptim-bin@5.1.0
+385 silly build compress-images@1.5.8
+386 info linkStuff compress-images@1.5.8
+387 silly linkStuff compress-images@1.5.8 has /Users/aniketjha/Desktop/useful-scripts/node_modules as its parent node_modules
+388 verbose linkBins compress-images@1.5.8
+389 verbose linkMans compress-images@1.5.8
+390 silly doSerial global-link 0
+391 silly doParallel update-linked 0
+392 silly doSerial install 2
+393 silly install jpegoptim-bin@5.1.0 /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775
+394 info lifecycle jpegoptim-bin@5.1.0~install: jpegoptim-bin@5.1.0
+395 silly lifecycle jpegoptim-bin@5.1.0~install: no script for install, continuing
+396 silly install compress-images@1.5.8 /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/compress-images-71cd90de
+397 info lifecycle compress-images@1.5.8~install: compress-images@1.5.8
+398 silly lifecycle compress-images@1.5.8~install: no script for install, continuing
+399 silly doSerial postinstall 2
+400 silly postinstall jpegoptim-bin@5.1.0 /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging/jpegoptim-bin-f78a2775
+401 info lifecycle jpegoptim-bin@5.1.0~postinstall: jpegoptim-bin@5.1.0
+402 verbose lifecycle jpegoptim-bin@5.1.0~postinstall: unsafe-perm in lifecycle true
+403 verbose lifecycle jpegoptim-bin@5.1.0~postinstall: PATH: /Users/aniketjha/.nvm/versions/node/v6.17.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/aniketjha/Desktop/useful-scripts/node_modules/jpegoptim-bin/node_modules/.bin:/Users/aniketjha/Desktop/useful-scripts/node_modules/.bin:/Users/aniketjha/.nvm/versions/node/v6.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/aniketjha/Library/Android/sdk/platform-tools:/Users/aniketjha/Library/Android/sdk/platform-tools/:/Users/aniketjha/mongo/bin:/usr/local/mysql/bin:/Users/aniketjha/google-cloud-sdk/bin:/Users/aniketjha/Library/Android/sdk/platform-tools:/Users/aniketjha/Library/Android/sdk/platform-tools/:/Users/aniketjha/mongo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/aniketjha/Library/Android/sdk/platform-tools:/Users/aniketjha/Library/Android/sdk/platform-tools/:/Users/aniketjha/mongo/bin:/usr/local/mysql/bin:/Users/aniketjha/google-cloud-sdk/bin:/Users/aniketjha/Library/Android/sdk/platform-tools:/Users/aniketjha/Library/Android/sdk/platform-tools/:/usr/local/mysql/bin:/Users/aniketjha/google-cloud-sdk/bin
+404 verbose lifecycle jpegoptim-bin@5.1.0~postinstall: CWD: /Users/aniketjha/Desktop/useful-scripts/node_modules/jpegoptim-bin
+405 silly lifecycle jpegoptim-bin@5.1.0~postinstall: Args: [ '-c', 'node lib/install.js' ]
+406 silly lifecycle jpegoptim-bin@5.1.0~postinstall: Returned: code: 1  signal: null
+407 info lifecycle jpegoptim-bin@5.1.0~postinstall: Failed to exec postinstall script
+408 verbose unlock done using /Users/aniketjha/.npm/_locks/staging-4350ffdb2dd4ef1d.lock for /Users/aniketjha/Desktop/useful-scripts/node_modules/.staging
+409 silly rollbackFailedOptional Starting
+410 silly rollbackFailedOptional Finishing
+411 silly runTopLevelLifecycles Finishing
+412 silly install printInstalled
+413 warn useful-scripts@1.0.0 No description
+414 verbose If you need help, you may report this error at:
+414 verbose     <https://github.com/npm/npm/issues>
+415 warn useful-scripts@1.0.0 No repository field.
+416 verbose If you need help, you may report this error at:
+416 verbose     <https://github.com/npm/npm/issues>
+417 verbose stack Error: jpegoptim-bin@5.1.0 postinstall: `node lib/install.js`
+417 verbose stack Exit status 1
+417 verbose stack     at EventEmitter.<anonymous> (/Users/aniketjha/.nvm/versions/node/v6.17.0/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+417 verbose stack     at emitTwo (events.js:106:13)
+417 verbose stack     at EventEmitter.emit (events.js:191:7)
+417 verbose stack     at ChildProcess.<anonymous> (/Users/aniketjha/.nvm/versions/node/v6.17.0/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+417 verbose stack     at emitTwo (events.js:106:13)
+417 verbose stack     at ChildProcess.emit (events.js:191:7)
+417 verbose stack     at maybeClose (internal/child_process.js:920:16)
+417 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
+418 verbose pkgid jpegoptim-bin@5.1.0
+419 verbose cwd /Users/aniketjha/Desktop/useful-scripts
+420 error Darwin 17.6.0
+421 error argv "/Users/aniketjha/.nvm/versions/node/v6.17.0/bin/node" "/Users/aniketjha/.nvm/versions/node/v6.17.0/bin/npm" "install" "compress-images" "--save"
+422 error node v6.17.0
+423 error npm  v3.10.10
+424 error code ELIFECYCLE
+425 error jpegoptim-bin@5.1.0 postinstall: `node lib/install.js`
+425 error Exit status 1
+426 error Failed at the jpegoptim-bin@5.1.0 postinstall script 'node lib/install.js'.
+426 error Make sure you have the latest version of node.js and npm installed.
+426 error If you do, this is most likely a problem with the jpegoptim-bin package,
+426 error not with npm itself.
+426 error Tell the author that this fails on your system:
+426 error     node lib/install.js
+426 error You can get information on how to open an issue for this project with:
+426 error     npm bugs jpegoptim-bin
+426 error Or if that isn't available, you can get their info via:
+426 error     npm owner ls jpegoptim-bin
+426 error There is likely additional logging output above.
+427 verbose exit [ 1, true ]
