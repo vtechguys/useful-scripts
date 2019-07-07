@@ -82,7 +82,7 @@ function markdownToHTML(dirname, folder, finalFolderName){
     
     
 }
-markdownToHTML(__dirname, "markdownToHTML");
+// markdownToHTML(__dirname, "markdownToHTML");
 function minifyImages(dirname, folder, imgExtensions, finalFolderName, quality){
     const dir = dirname || __dirname;
     const pathToFolder = path.join(dir, folder);
