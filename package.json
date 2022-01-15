@@ -16,6 +16,6 @@
     "imagemin-pngquant": "^8.0.0",
     "jsdom": "^15.1.1",
     "markdown-pdf": "^9.0.0",
-    "marked": "^0.7.0"
+    "marked": "^4.0.10"
   }
 }
